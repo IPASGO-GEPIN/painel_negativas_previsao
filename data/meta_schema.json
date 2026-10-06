@@ -1,0 +1,454 @@
+{
+  "ok": true,
+  "tabelas": [
+    {
+      "name": "dim_fluxo",
+      "n_linhas": 5,
+      "colunas": [
+        {
+          "name": "fluxo",
+          "type": "VARCHAR"
+        }
+      ],
+      "camada": "dimensao",
+      "papel": "Fluxos / departamentos de auditoria.",
+      "origem": "Derivada dos cubos no ETL"
+    },
+    {
+      "name": "dim_login",
+      "n_linhas": 1,
+      "colunas": [
+        {
+          "name": "login",
+          "type": "VARCHAR"
+        }
+      ],
+      "camada": "dimensao",
+      "papel": "Logins de alteração (pessoa).",
+      "origem": "Derivada dos cubos no ETL"
+    },
+    {
+      "name": "dim_mes",
+      "n_linhas": 27,
+      "colunas": [
+        {
+          "name": "mes",
+          "type": "VARCHAR"
+        }
+      ],
+      "camada": "dimensao",
+      "papel": "Competências disponíveis para filtro.",
+      "origem": "Derivada dos cubos no ETL"
+    },
+    {
+      "name": "dim_tipo",
+      "n_linhas": 4,
+      "colunas": [
+        {
+          "name": "tipo",
+          "type": "VARCHAR"
+        }
+      ],
+      "camada": "dimensao",
+      "papel": "Tipos de guia (consulta, SADT, internação, odonto).",
+      "origem": "Derivada dos cubos no ETL"
+    },
+    {
+      "name": "fato_auth_fat",
+      "n_linhas": 31,
+      "colunas": [
+        {
+          "name": "mes",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "tipo_grupo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "fluxo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "login",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "n_auth",
+          "type": "BIGINT"
+        },
+        {
+          "name": "com_fat",
+          "type": "BIGINT"
+        },
+        {
+          "name": "taxa",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "despesa_liq_casada",
+          "type": "DOUBLE"
+        }
+      ],
+      "camada": "cubo",
+      "papel": "Conversão autorização → faturamento e líquido casado.",
+      "origem": "guias_autorizacao_pq ⋈ faturamento_v5_pq",
+      "paginas": "Auth→Fat, Início"
+    },
+    {
+      "name": "fato_fila",
+      "n_linhas": 243,
+      "colunas": [
+        {
+          "name": "mes",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "tipo_grupo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "fluxo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "login",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "n_linhas",
+          "type": "BIGINT"
+        },
+        {
+          "name": "n_itens",
+          "type": "BIGINT"
+        },
+        {
+          "name": "idade_p50",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "n_itens_estouro",
+          "type": "BIGINT"
+        },
+        {
+          "name": "pct_itens_estouro",
+          "type": "DOUBLE"
+        }
+      ],
+      "camada": "cubo",
+      "papel": "Volume, idade e estouro RN 259 agregados.",
+      "origem": "fila_itens_regulacao_hist_pq",
+      "paginas": "Filas, Início"
+    },
+    {
+      "name": "fato_financeiro",
+      "n_linhas": 24,
+      "colunas": [
+        {
+          "name": "mes",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "tipo_grupo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "fluxo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "login",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "n_guias",
+          "type": "BIGINT"
+        },
+        {
+          "name": "n_eventos",
+          "type": "BIGINT"
+        },
+        {
+          "name": "despesa_liq",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "despesa_liq_com_guia",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "despesa_liq_sem_guia",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "liq_pago",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "glosa",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "copart",
+          "type": "DOUBLE"
+        }
+      ],
+      "camada": "cubo",
+      "papel": "Despesa líquida, glosa, copart e líquido pago.",
+      "origem": "faturamento_v5_pq",
+      "paginas": "Pagamento, Início"
+    },
+    {
+      "name": "fato_sla",
+      "n_linhas": 103,
+      "colunas": [
+        {
+          "name": "mes",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "tipo_grupo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "fluxo",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "login",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "n_linhas",
+          "type": "BIGINT"
+        },
+        {
+          "name": "n_itens",
+          "type": "BIGINT"
+        },
+        {
+          "name": "n_itens_fora",
+          "type": "BIGINT"
+        },
+        {
+          "name": "pct_itens_fora",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "n_fora_linhas",
+          "type": "BIGINT"
+        }
+      ],
+      "camada": "cubo",
+      "papel": "Itens dentro/fora do prazo de SLA.",
+      "origem": "sla_fila_itens_regulacao_hist_pq",
+      "paginas": "SLA, Início"
+    },
+    {
+      "name": "meta_conversao",
+      "n_linhas": 1,
+      "colunas": [
+        {
+          "name": "taxa_conversao_pct",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "taxa_conversao_madura_pct",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "janela_madura",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "p50_dias",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "p90_dias",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "despesa_liq_casada",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "pct_cobertura_sla",
+          "type": "DOUBLE"
+        }
+      ],
+      "camada": "meta",
+      "papel": "KPIs globais de conversão madura e cobertura SLA.",
+      "origem": "ETL / fato_auth_fat"
+    },
+    {
+      "name": "meta_etl",
+      "n_linhas": 1,
+      "colunas": [
+        {
+          "name": "extraido_em",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "fonte",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "nota",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "mes_inicio_inv",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "mes_fim",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "lookback_meses",
+          "type": "BIGINT"
+        },
+        {
+          "name": "modo",
+          "type": "VARCHAR"
+        }
+      ],
+      "camada": "meta",
+      "papel": "Watermark do último refresh (janela, modo, fonte).",
+      "origem": "ETL"
+    }
+  ],
+  "relacionamentos": [
+    {
+      "from": "dim_mes",
+      "to": "fato_*",
+      "on": "mes",
+      "nota": "Filtro de competência da barra superior."
+    },
+    {
+      "from": "dim_tipo",
+      "to": "fato_*",
+      "on": "tipo ≈ tipo_grupo",
+      "nota": "Consulta, SADT, internação, odonto."
+    },
+    {
+      "from": "dim_fluxo",
+      "to": "fato_fila / fato_sla / fato_auth_fat",
+      "on": "fluxo",
+      "nota": "Proxy de departamento / fluxo de auditoria."
+    },
+    {
+      "from": "dim_login",
+      "to": "fato_auth_fat / fato_fila",
+      "on": "login",
+      "nota": "Proxy de pessoa (login_alteracao)."
+    },
+    {
+      "from": "Athena guias_autorizacao_pq",
+      "to": "fato_auth_fat / Investigação",
+      "on": "ETL (cubos) · API sob demanda (casos)",
+      "nota": "Origem de autorização e negativas."
+    },
+    {
+      "from": "Athena fila_itens_regulacao_hist_pq",
+      "to": "fato_fila / Investigação",
+      "on": "ETL · API",
+      "nota": "Origem de fila e RN 259."
+    },
+    {
+      "from": "Athena sla_fila_itens_regulacao_hist_pq",
+      "to": "fato_sla / Investigação",
+      "on": "ETL · API",
+      "nota": "Origem de SLA."
+    },
+    {
+      "from": "Athena faturamento_v5_pq",
+      "to": "fato_financeiro / fato_auth_fat / Investigação",
+      "on": "ETL · API",
+      "nota": "Origem financeira, casamento auth→fat e detalhe de caso."
+    },
+    {
+      "from": "guias_autorizacao_pq",
+      "to": "fila / sla (mesmo caso)",
+      "on": "guia + item",
+      "nota": "Na Investigação, a API cruza etapas no Athena por guia/item."
+    },
+    {
+      "from": "guias_autorizacao_pq",
+      "to": "faturamento_v5_pq",
+      "on": "guia",
+      "nota": "Conversão autorização → faturamento no detalhe da guia."
+    }
+  ],
+  "athena_investigacao": [
+    {
+      "name": "guias_autorizacao_pq",
+      "papel": "Autorização / negativas (hub do caso).",
+      "chave": "guia_operadora, item_regulacao_id"
+    },
+    {
+      "name": "fila_itens_regulacao_hist_pq",
+      "papel": "Fila e RN 259.",
+      "chave": "numero_guia_operadora, itens_regulacao_id"
+    },
+    {
+      "name": "sla_fila_itens_regulacao_hist_pq",
+      "papel": "Prazo / SLA do item.",
+      "chave": "guia_operadora, id_item_regulacao"
+    },
+    {
+      "name": "faturamento_v5_pq",
+      "papel": "Eventos de faturamento e despesa líquida.",
+      "chave": "guiaoperadora"
+    }
+  ],
+  "camadas": [
+    {
+      "id": "dimensao",
+      "titulo": "Dimensões (filtros)",
+      "descricao": "Listas usadas na barra superior para recortar os cubos.",
+      "tabelas": [
+        "dim_fluxo",
+        "dim_login",
+        "dim_mes",
+        "dim_tipo"
+      ]
+    },
+    {
+      "id": "cubo",
+      "titulo": "Cubos gerenciais (fato_*)",
+      "descricao": "Agregados por mês / tipo / fluxo / login para KPIs e gráficos.",
+      "tabelas": [
+        "fato_auth_fat",
+        "fato_fila",
+        "fato_financeiro",
+        "fato_sla"
+      ]
+    },
+    {
+      "id": "investigacao",
+      "titulo": "Investigação (Athena sob demanda)",
+      "descricao": "Não há inv_* no DuckDB. A tela consulta o Athena via fila serializada, cruzando guia/item nas tabelas de origem.",
+      "tabelas": [
+        "guias_autorizacao_pq",
+        "fila_itens_regulacao_hist_pq",
+        "sla_fila_itens_regulacao_hist_pq",
+        "faturamento_v5_pq"
+      ]
+    },
+    {
+      "id": "meta",
+      "titulo": "Metadados",
+      "descricao": "Controle do refresh e indicadores globais de conversão.",
+      "tabelas": [
+        "meta_conversao",
+        "meta_etl"
+      ]
+    }
+  ],
+  "mermaid": "erDiagram\n  dim_mes ||--o{ fato_fila : filtra\n  dim_mes ||--o{ fato_sla : filtra\n  dim_mes ||--o{ fato_auth_fat : filtra\n  dim_mes ||--o{ fato_financeiro : filtra\n  dim_tipo ||--o{ fato_fila : tipo\n  dim_fluxo ||--o{ fato_fila : fluxo\n  dim_fluxo ||--o{ fato_sla : fluxo\n  dim_fluxo ||--o{ fato_auth_fat : fluxo\n  dim_login ||--o{ fato_auth_fat : login\n  meta_etl ||--o| meta_conversao : watermark\n  dim_fluxo { string id }\n  dim_login { string id }\n  dim_mes { string id }\n  dim_tipo { string id }\n  fato_auth_fat { string id }\n  fato_fila { string id }\n  fato_financeiro { string id }\n  fato_sla { string id }\n  meta_conversao { string id }\n  meta_etl { string id }",
+  "extraido_em": "2026-10-06",
+  "modo": "duckdb"
+}
