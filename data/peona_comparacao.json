@@ -1,0 +1,24 @@
+{
+  "fonte": "PEONA_INPUT.xlsx · aba Resultado",
+  "extraido_em": "2026-09-18",
+  "metodologia": "PEONA híbrida 6×6",
+  "janela_meses": 6,
+  "eixo": "Competência de aviso",
+  "definicao": "Estimativa de provisão para eventos ocorridos e não avisados (triângulo de aviso 6×6). No REG10 o contraste operacional é o estoque 'ainda a faturar': autorizações conhecidas com lags futuros no triângulo auth→fat.",
+  "periodo_disponivel": "2025/07 a 2026/07",
+  "pontos": [
+    { "comp": "2025/07", "peona_mh": 289478572.91, "peona_od": 3871500.84, "peona_total": 293350073.75 },
+    { "comp": "2025/08", "peona_mh": 285118609.99, "peona_od": 3626440.99, "peona_total": 288745050.98 },
+    { "comp": "2025/09", "peona_mh": 289276665.43, "peona_od": 3678233.60, "peona_total": 292954899.03 },
+    { "comp": "2025/10", "peona_mh": 295765675.60, "peona_od": 3740452.89, "peona_total": 299506128.50 },
+    { "comp": "2025/11", "peona_mh": 296931424.40, "peona_od": 3771600.50, "peona_total": 300703024.90 },
+    { "comp": "2025/12", "peona_mh": 289324536.74, "peona_od": 3416589.38, "peona_total": 292741126.12 },
+    { "comp": "2026/01", "peona_mh": 282762145.22, "peona_od": 2993550.28, "peona_total": 285755695.50 },
+    { "comp": "2026/02", "peona_mh": 279581989.07, "peona_od": 2884003.73, "peona_total": 282465992.80 },
+    { "comp": "2026/03", "peona_mh": 277569796.05, "peona_od": 2743722.07, "peona_total": 280313518.13 },
+    { "comp": "2026/04", "peona_mh": 278137889.29, "peona_od": 2732815.87, "peona_total": 280870705.16 },
+    { "comp": "2026/05", "peona_mh": 276699947.22, "peona_od": 2684953.87, "peona_total": 279384901.09 },
+    { "comp": "2026/06", "peona_mh": 278078166.00, "peona_od": 2654999.52, "peona_total": 280733165.53 },
+    { "comp": "2026/07", "peona_mh": 284039635.57, "peona_od": 2763063.32, "peona_total": 286802698.89 }
+  ]
+}

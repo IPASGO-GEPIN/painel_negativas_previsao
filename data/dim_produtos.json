@@ -1,0 +1,223 @@
+{
+  "fonte": "COINI dim_produtos (fallback derivado)",
+  "extraido_em": "2026-10-02",
+  "produtos": [
+    {
+      "codigo_plano": "1",
+      "nome_plano": "ESTADO BASICO PERCENTUAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "2",
+      "nome_plano": "ESTADO ESPECIAL PERCENTUAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "3",
+      "nome_plano": "ESTADO BASICO ATUARIAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "4",
+      "nome_plano": "ESTADO ESPECIAL ATUARIAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "5",
+      "nome_plano": "RADIOACIDENTADOS BASICO PERCENTUAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "6",
+      "nome_plano": "RADIOACIDENTADOS ESPECIAL PERCENTUAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "7",
+      "nome_plano": "RADIOACIDENTADOS BASICO ATUARIAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "8",
+      "nome_plano": "RADIOACIDENTADOS ESPECIAL ATUARIAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "9",
+      "nome_plano": "EMENDA CONST BASICO PERCENTUAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "10",
+      "nome_plano": "EMENDA CONST ESPECIAL PERCENTUAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "11",
+      "nome_plano": "EMENDA CONST BASICO ATUARIAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "12",
+      "nome_plano": "EMENDA CONST ESPECIAL ATUARIAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "13",
+      "nome_plano": "CONVENIO BASICO PERCENTUAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "14",
+      "nome_plano": "CONVENIO ESPECIAL PERCENTUAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "15",
+      "nome_plano": "CONVENIO BASICO ATUARIAL",
+      "plano": "Básico",
+      "descricao_produto_resumido": "BASICO",
+      "id_plano_ans": "01"
+    },
+    {
+      "codigo_plano": "16",
+      "nome_plano": "CONVENIO ESPECIAL ATUARIAL",
+      "plano": "Especial",
+      "descricao_produto_resumido": "ESPECIAL",
+      "id_plano_ans": "02"
+    },
+    {
+      "codigo_plano": "18",
+      "nome_plano": "PLANO SEM COBERTURA",
+      "plano": "Plano sem cobertura",
+      "descricao_produto_resumido": "PLANO SEM COBERTURA",
+      "id_plano_ans": "999999999"
+    },
+    {
+      "codigo_plano": "20",
+      "nome_plano": "IPASGO SAUDE CERRADO",
+      "plano": "Cerrado",
+      "descricao_produto_resumido": "CERRADO",
+      "id_plano_ans": "500641244"
+    },
+    {
+      "codigo_plano": "21",
+      "nome_plano": "IPASGO SAUDE FAMILIA",
+      "plano": "Família",
+      "descricao_produto_resumido": "FAMILIA",
+      "id_plano_ans": "500642242"
+    },
+    {
+      "codigo_plano": "22",
+      "nome_plano": "IPASGO SAUDE PLENO",
+      "plano": "Pleno",
+      "descricao_produto_resumido": "IPASGO SAUDE PLENO",
+      "id_plano_ans": "500643241"
+    },
+    {
+      "codigo_plano": "23",
+      "nome_plano": "IPASGO SAUDE PLENO MAIS",
+      "plano": "Pleno+",
+      "descricao_produto_resumido": "IPASGO SAUDE PLENO MAIS",
+      "id_plano_ans": "500848244"
+    },
+    {
+      "codigo_plano": "26",
+      "nome_plano": "IPASGO SAUDE PM CERRADO",
+      "plano": "PM Cerrado",
+      "descricao_produto_resumido": "IPASGO SAUDE PM CERRADO",
+      "id_plano_ans": "506893252"
+    },
+    {
+      "codigo_plano": "27",
+      "nome_plano": "IPASGO SAUDE PM FAMILIA",
+      "plano": "PM Família",
+      "descricao_produto_resumido": "IPASGO SAUDE PM FAMILIA",
+      "id_plano_ans": "506892254"
+    },
+    {
+      "codigo_plano": "28",
+      "nome_plano": "CERRADO APTO",
+      "plano": "Cerrado Apto",
+      "descricao_produto_resumido": "CERRADO APTO",
+      "id_plano_ans": "507715260"
+    },
+    {
+      "codigo_plano": "29",
+      "nome_plano": "FAMILIA APTO",
+      "plano": "Família Apto",
+      "descricao_produto_resumido": "FAMILIA APTO",
+      "id_plano_ans": "507714261"
+    },
+    {
+      "codigo_plano": "30",
+      "nome_plano": "PM CERRADO APTO",
+      "plano": "PM Cerrado Apto",
+      "descricao_produto_resumido": "PM CERRADO APTO",
+      "id_plano_ans": "507713263"
+    },
+    {
+      "codigo_plano": "31",
+      "nome_plano": "PM FAMILIA APTO",
+      "plano": "PM Família Apto",
+      "descricao_produto_resumido": "PM FAMILIA APTO",
+      "id_plano_ans": "507712265"
+    },
+    {
+      "codigo_plano": "32",
+      "nome_plano": "ARAGUAIA",
+      "plano": "Araguaia",
+      "descricao_produto_resumido": "ARAGUAIA",
+      "id_plano_ans": "508690266"
+    },
+    {
+      "codigo_plano": "33",
+      "nome_plano": "ARAGUAIA FAMILIA",
+      "plano": "Araguaia Família",
+      "descricao_produto_resumido": "ARAGUAIA FAMILIA",
+      "id_plano_ans": "508693261"
+    },
+    {
+      "codigo_plano": "34",
+      "nome_plano": "ARAGUAIA ESPECIAL",
+      "plano": "Araguaia Especial",
+      "descricao_produto_resumido": "ARAGUAIA ESPECIAL",
+      "id_plano_ans": "508692262"
+    },
+    {
+      "codigo_plano": "35",
+      "nome_plano": "ARAGUAIA FAMILIA ESPECIAL",
+      "plano": "Araguaia Família Especial",
+      "descricao_produto_resumido": "ARAGUAIA FAMILIA ESPECIAL",
+      "id_plano_ans": "508691264"
+    }
+  ]
+}

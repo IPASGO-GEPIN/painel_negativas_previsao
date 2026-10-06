@@ -1,0 +1,461 @@
+{
+  "query": "REG08",
+  "fonte_auth": "ipasgo.guias_autorizacao_pq",
+  "fonte_fat": "ipasgo.faturamento_v5_pq",
+  "chave": "guia_operadora = guiaoperadora",
+  "extraido_em": "2026-09-18",
+  "grao": "guia_operadora (ambos lados agregados antes do join)",
+  "universo_auth": "situacao_guia = AUTORIZADA",
+  "resumo": {
+    "n_guias_auth": 13942978,
+    "com_fat": 11621369,
+    "sem_fat": 2321609,
+    "taxa_conversao_pct": 83.35,
+    "avg_eventos_fat_por_guia": 5.65,
+    "p50_eventos_fat": 1,
+    "p90_eventos_fat": 12,
+    "max_eventos_fat": 20490,
+    "avg_dias_auth_ate_real": 2.98,
+    "p50_dias": 0,
+    "p90_dias": 13,
+    "despesa_liq_casada": 3537108957.36,
+    "explosao_join_linha_evitada": 2577625926,
+    "taxa_conversao_madura_pct": 91.43,
+    "janela_madura": "2025/01–2026/06",
+    "nota_global": "taxa_conversao_pct global (~83%) mistura truncamento 2024 e censura ≥2026/07; use taxa_conversao_madura_pct para leitura gerencial."
+  },
+  "cobertura_chaves": {
+    "guia_operadora": {
+      "pct_auth_com_fat": 83.35,
+      "pct_fat_com_auth_autorizada": 81.53
+    },
+    "senha": {
+      "pct_auth_com_fat": 87.98,
+      "pct_fat_com_auth": 99.06
+    },
+    "fat_orfaos_sem_qualquer_auth_pct": 18.15
+  },
+  "conversao_por_tipo": [
+    {
+      "valor": "SP/SADT",
+      "n_guias_auth": 9624598,
+      "com_fat": 7684988,
+      "taxa_conversao": 79.85
+    },
+    {
+      "valor": "CONSULTA",
+      "n_guias_auth": 3303467,
+      "com_fat": 3027026,
+      "taxa_conversao": 91.63
+    },
+    {
+      "valor": "ODONTOLÓGICA",
+      "n_guias_auth": 718633,
+      "com_fat": 643576,
+      "taxa_conversao": 89.56
+    },
+    {
+      "valor": "SOLICITAÇÃO DE INTERNAÇÃO",
+      "n_guias_auth": 241639,
+      "com_fat": 215309,
+      "taxa_conversao": 89.1
+    },
+    {
+      "valor": "RESUMO DE INTERNAÇÃO",
+      "n_guias_auth": 42038,
+      "com_fat": 40673,
+      "taxa_conversao": 96.75
+    },
+    {
+      "valor": "ANEXO DE OPME",
+      "n_guias_auth": 9926,
+      "com_fat": 8244,
+      "taxa_conversao": 83.05
+    },
+    {
+      "valor": "PRORROGAÇÃO",
+      "n_guias_auth": 1856,
+      "com_fat": 967,
+      "taxa_conversao": 52.1
+    },
+    {
+      "valor": "ANEXO DE QUIMIOTERAPIA",
+      "n_guias_auth": 442,
+      "com_fat": 257,
+      "taxa_conversao": 58.14
+    },
+    {
+      "valor": "HONORARIO INDIVIDUAL",
+      "n_guias_auth": 374,
+      "com_fat": 325,
+      "taxa_conversao": 86.9
+    }
+  ],
+  "conversao_mensal": [
+    {
+      "mes": "2024/08",
+      "n_auth": 542286,
+      "com_fat": 154607,
+      "taxa": 28.51
+    },
+    {
+      "mes": "2024/09",
+      "n_auth": 520489,
+      "com_fat": 438885,
+      "taxa": 84.32
+    },
+    {
+      "mes": "2024/10",
+      "n_auth": 542210,
+      "com_fat": 486821,
+      "taxa": 89.78
+    },
+    {
+      "mes": "2024/11",
+      "n_auth": 497729,
+      "com_fat": 425775,
+      "taxa": 85.54
+    },
+    {
+      "mes": "2024/12",
+      "n_auth": 417440,
+      "com_fat": 366826,
+      "taxa": 87.88
+    },
+    {
+      "mes": "2025/01",
+      "n_auth": 578969,
+      "com_fat": 509504,
+      "taxa": 88
+    },
+    {
+      "mes": "2025/02",
+      "n_auth": 540887,
+      "com_fat": 470607,
+      "taxa": 87.01
+    },
+    {
+      "mes": "2025/03",
+      "n_auth": 528230,
+      "com_fat": 458517,
+      "taxa": 86.8
+    },
+    {
+      "mes": "2025/04",
+      "n_auth": 535659,
+      "com_fat": 480961,
+      "taxa": 89.79
+    },
+    {
+      "mes": "2025/05",
+      "n_auth": 565101,
+      "com_fat": 513074,
+      "taxa": 90.79
+    },
+    {
+      "mes": "2025/06",
+      "n_auth": 518826,
+      "com_fat": 477384,
+      "taxa": 92.01
+    },
+    {
+      "mes": "2025/07",
+      "n_auth": 578807,
+      "com_fat": 529291,
+      "taxa": 91.45
+    },
+    {
+      "mes": "2025/08",
+      "n_auth": 550934,
+      "com_fat": 502674,
+      "taxa": 91.24
+    },
+    {
+      "mes": "2025/09",
+      "n_auth": 583220,
+      "com_fat": 536662,
+      "taxa": 92.02
+    },
+    {
+      "mes": "2025/10",
+      "n_auth": 589112,
+      "com_fat": 543078,
+      "taxa": 92.19
+    },
+    {
+      "mes": "2025/11",
+      "n_auth": 507558,
+      "com_fat": 465271,
+      "taxa": 91.67
+    },
+    {
+      "mes": "2025/12",
+      "n_auth": 434653,
+      "com_fat": 399004,
+      "taxa": 91.8
+    },
+    {
+      "mes": "2026/01",
+      "n_auth": 573460,
+      "com_fat": 531024,
+      "taxa": 92.6
+    },
+    {
+      "mes": "2026/02",
+      "n_auth": 505639,
+      "com_fat": 470991,
+      "taxa": 93.15
+    },
+    {
+      "mes": "2026/03",
+      "n_auth": 617035,
+      "com_fat": 580732,
+      "taxa": 94.12
+    },
+    {
+      "mes": "2026/04",
+      "n_auth": 561926,
+      "com_fat": 526657,
+      "taxa": 93.72
+    },
+    {
+      "mes": "2026/05",
+      "n_auth": 566623,
+      "com_fat": 533429,
+      "taxa": 94.14
+    },
+    {
+      "mes": "2026/06",
+      "n_auth": 556909,
+      "com_fat": 516260,
+      "taxa": 92.7
+    },
+    {
+      "mes": "2026/07",
+      "n_auth": 588242,
+      "com_fat": 461248,
+      "taxa": 78.41
+    },
+    {
+      "mes": "2026/08",
+      "n_auth": 614368,
+      "com_fat": 238938,
+      "taxa": 38.89
+    },
+    {
+      "mes": "2026/09",
+      "n_auth": 326665,
+      "com_fat": 3149,
+      "taxa": 0.96
+    }
+  ],
+  "nota_maturacao": "Queda de taxa em 2026/07–09 reflete defasagem de apresentação/faturamento, não necessariamente perda assistencial.",
+  "metodologia_previsao_auth": {
+    "fonte": "previsao_auth_faturamento",
+    "dedup": "ROW_NUMBER por guia: AUTORIZADA > CANCELADA > NEGADA; empate data_sistema mais antiga; so AUTORIZADA entra",
+    "chave": "guia_operadora = guiaoperadora",
+    "lag_definicao": "meses entre mes(data_sistema) e MIN(comp) do fat — distinto do lag em dias ate dt_realizacao",
+    "despesa_liq": "valor - valor_glosado - vr_copart",
+    "metricas_mensais_maduras": [
+      {
+        "comp_auth": "2025/04",
+        "n_auth": 535685,
+        "taxa_conversao": 0.8979,
+        "lag_medio": 1.41,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6807,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/05",
+        "n_auth": 565111,
+        "taxa_conversao": 0.9079,
+        "lag_medio": 1.39,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.7461,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/06",
+        "n_auth": 518837,
+        "taxa_conversao": 0.9201,
+        "lag_medio": 1.39,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6962,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/07",
+        "n_auth": 578816,
+        "taxa_conversao": 0.9144,
+        "lag_medio": 1.34,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6719,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/08",
+        "n_auth": 550936,
+        "taxa_conversao": 0.9123,
+        "lag_medio": 1.32,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.7027,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/09",
+        "n_auth": 583223,
+        "taxa_conversao": 0.9201,
+        "lag_medio": 1.3,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6855,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/10",
+        "n_auth": 589115,
+        "taxa_conversao": 0.9218,
+        "lag_medio": 1.32,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6374,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/11",
+        "n_auth": 507564,
+        "taxa_conversao": 0.9166,
+        "lag_medio": 1.3,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6109,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2025/12",
+        "n_auth": 434655,
+        "taxa_conversao": 0.9168,
+        "lag_medio": 1.25,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.67,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2026/01",
+        "n_auth": 573461,
+        "taxa_conversao": 0.9257,
+        "lag_medio": 1.29,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6559,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2026/02",
+        "n_auth": 505640,
+        "taxa_conversao": 0.9313,
+        "lag_medio": 1.29,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.7331,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2026/03",
+        "n_auth": 617039,
+        "taxa_conversao": 0.9404,
+        "lag_medio": 1.29,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6735,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2026/04",
+        "n_auth": 561926,
+        "taxa_conversao": 0.9339,
+        "lag_medio": 1.31,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.6527,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2026/05",
+        "n_auth": 566624,
+        "taxa_conversao": 0.9095,
+        "lag_medio": 1.24,
+        "lag_p50": 1,
+        "lag_p90": 2,
+        "fator_valor": 1.533,
+        "censurado": false
+      },
+      {
+        "comp_auth": "2026/06",
+        "n_auth": 556909,
+        "taxa_conversao": 0.6832,
+        "lag_medio": 0.99,
+        "lag_p50": 1,
+        "lag_p90": 1,
+        "fator_valor": 1.2735,
+        "censurado": true
+      },
+      {
+        "comp_auth": "2026/07",
+        "n_auth": 588244,
+        "taxa_conversao": 0.0061,
+        "lag_medio": -0.02,
+        "lag_p50": 0,
+        "lag_p90": 0,
+        "fator_valor": 1.2334,
+        "censurado": true
+      }
+    ],
+    "taxas_lag_medias_maduras_2025_04_12": {
+      "0": 0.005984,
+      "1": 0.640248,
+      "2": 0.232513,
+      "3": 0.030545,
+      "4": 0.003449
+    },
+    "exemplo_triangulo_2025_08": [
+      {
+        "lag": 0,
+        "n_guias": 1912,
+        "taxa_vol": 0.00347,
+        "liq": 497036.46
+      },
+      {
+        "lag": 1,
+        "n_guias": 357672,
+        "taxa_vol": 0.649208,
+        "liq": 79949720.3
+      },
+      {
+        "lag": 2,
+        "n_guias": 124915,
+        "taxa_vol": 0.226732,
+        "liq": 74413002.81
+      },
+      {
+        "lag": 3,
+        "n_guias": 16684,
+        "taxa_vol": 0.030283,
+        "liq": 11732168.49
+      },
+      {
+        "lag": 4,
+        "n_guias": 939,
+        "taxa_vol": 0.001704,
+        "liq": 1903337.87
+      }
+    ]
+  }
+}

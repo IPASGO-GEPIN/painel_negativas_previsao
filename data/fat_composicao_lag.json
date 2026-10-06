@@ -1,0 +1,1216 @@
+{
+  "extraido_em": "2026-10-01",
+  "fonte": "Athena guias_autorizacao_pq ⋈ faturamento_v5_pq",
+  "metrica": "valor bruto (campo valor, sem deduzir glosa/copart)",
+  "definicao": "Do valor bruto faturado no mês, quanto veio de autorizações do mesmo mês, 1 mês antes, 2 meses antes, etc. Faixa 6+ inclui 6 meses ou mais.",
+  "lags": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "media_perfil": [
+    {
+      "lag": 0,
+      "label": "mesmo mês",
+      "pct_media": 0.25,
+      "bruto_medio": 483657.42
+    },
+    {
+      "lag": 1,
+      "label": "1 mês antes",
+      "pct_media": 45.24,
+      "bruto_medio": 87953489.28
+    },
+    {
+      "lag": 2,
+      "label": "2 meses antes",
+      "pct_media": 38.58,
+      "bruto_medio": 74747538.86
+    },
+    {
+      "lag": 3,
+      "label": "3 meses antes",
+      "pct_media": 10.66,
+      "bruto_medio": 20309457.94
+    },
+    {
+      "lag": 4,
+      "label": "4 meses antes",
+      "pct_media": 2.22,
+      "bruto_medio": 4243961.94
+    },
+    {
+      "lag": 5,
+      "label": "5 meses antes",
+      "pct_media": 0.74,
+      "bruto_medio": 1386592.12
+    },
+    {
+      "lag": 6,
+      "label": "6+ meses",
+      "pct_media": 2.31,
+      "bruto_medio": 4504807.26
+    }
+  ],
+  "mes_referencia": "2026/09",
+  "ultimos_6_meses": [
+    {
+      "mes": "2026/04",
+      "bruto_total": 219330502.88,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 618661.14,
+          "pct": 0.28
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 107642031.31,
+          "pct": 49.08
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 76090528.9,
+          "pct": 34.69
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 22798305.62,
+          "pct": 10.39
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4676151.99,
+          "pct": 2.13
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1723636.11,
+          "pct": 0.79
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 5781187.81,
+          "pct": 2.64
+        }
+      ]
+    },
+    {
+      "mes": "2026/05",
+      "bruto_total": 220775718.65,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 562159.95,
+          "pct": 0.25
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 98316534.06,
+          "pct": 44.53
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 91718076.01,
+          "pct": 41.54
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 19103352.29,
+          "pct": 8.65
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3998481.51,
+          "pct": 1.81
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1058908.52,
+          "pct": 0.48
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 6018206.31,
+          "pct": 2.73
+        }
+      ]
+    },
+    {
+      "mes": "2026/06",
+      "bruto_total": 217758775.96,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 539760.72,
+          "pct": 0.25
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 100325022.16,
+          "pct": 46.07
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 82032312.58,
+          "pct": 37.67
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 24051977.38,
+          "pct": 11.05
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4593213.03,
+          "pct": 2.11
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 920803.47,
+          "pct": 0.42
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 5295686.62,
+          "pct": 2.43
+        }
+      ]
+    },
+    {
+      "mes": "2026/07",
+      "bruto_total": 219516375.97,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 409612.86,
+          "pct": 0.19
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 101266456.23,
+          "pct": 46.13
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 84646037.8,
+          "pct": 38.56
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 20724219.66,
+          "pct": 9.44
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 5497166.53,
+          "pct": 2.5
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1837111.26,
+          "pct": 0.84
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 5135771.63,
+          "pct": 2.34
+        }
+      ]
+    },
+    {
+      "mes": "2026/08",
+      "bruto_total": 243886552.09,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 481968.96,
+          "pct": 0.2
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 113417773.64,
+          "pct": 46.5
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 94459441.66,
+          "pct": 38.73
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 23093524.82,
+          "pct": 9.47
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4649663.4,
+          "pct": 1.91
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1558479.97,
+          "pct": 0.64
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 6225699.64,
+          "pct": 2.55
+        }
+      ]
+    },
+    {
+      "mes": "2026/09",
+      "bruto_total": 206403048.59,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 543648.88,
+          "pct": 0.26
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 95682503.78,
+          "pct": 46.36
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 80942603.52,
+          "pct": 39.22
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 20274047.27,
+          "pct": 9.82
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3296576.79,
+          "pct": 1.6
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 870440.52,
+          "pct": 0.42
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 4793227.83,
+          "pct": 2.32
+        }
+      ]
+    }
+  ],
+  "mensal": [
+    {
+      "mes": "2025/04",
+      "bruto_total": 131154594.08,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 526937.65,
+          "pct": 0.4
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 62122699.02,
+          "pct": 47.37
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 47235676.69,
+          "pct": 36.02
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 14272422.6,
+          "pct": 10.88
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 2628022.48,
+          "pct": 2.0
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1304802.36,
+          "pct": 0.99
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 3064033.28,
+          "pct": 2.34
+        }
+      ]
+    },
+    {
+      "mes": "2025/05",
+      "bruto_total": 141424789.07,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 229463.1,
+          "pct": 0.16
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 54753588.74,
+          "pct": 38.72
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 56546877.48,
+          "pct": 39.98
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 21077449.58,
+          "pct": 14.9
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4773666.14,
+          "pct": 3.38
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1181895.66,
+          "pct": 0.84
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 2861848.37,
+          "pct": 2.02
+        }
+      ]
+    },
+    {
+      "mes": "2025/06",
+      "bruto_total": 143974550.53,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 373582.51,
+          "pct": 0.26
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 62749545.93,
+          "pct": 43.58
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 54755124.02,
+          "pct": 38.03
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 18546683.76,
+          "pct": 12.88
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3561453.96,
+          "pct": 2.47
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1167120.11,
+          "pct": 0.81
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 2821040.24,
+          "pct": 1.96
+        }
+      ]
+    },
+    {
+      "mes": "2025/07",
+      "bruto_total": 149395001.37,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 525616.03,
+          "pct": 0.35
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 63545053.88,
+          "pct": 42.53
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 59156336.4,
+          "pct": 39.6
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 17832684.18,
+          "pct": 11.94
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3488972.83,
+          "pct": 2.34
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1698044.75,
+          "pct": 1.14
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 3148293.3,
+          "pct": 2.11
+        }
+      ]
+    },
+    {
+      "mes": "2025/08",
+      "bruto_total": 197308701.87,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 305440.82,
+          "pct": 0.15
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 87327412.39,
+          "pct": 44.26
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 77645334.12,
+          "pct": 39.35
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 21702962.12,
+          "pct": 11.0
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4143419.84,
+          "pct": 2.1
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1497210.47,
+          "pct": 0.76
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 4686922.11,
+          "pct": 2.38
+        }
+      ]
+    },
+    {
+      "mes": "2025/09",
+      "bruto_total": 200596056.69,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 712050.26,
+          "pct": 0.35
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 87708952.01,
+          "pct": 43.72
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 78776180.43,
+          "pct": 39.27
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 20476983.61,
+          "pct": 10.21
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 5918543.12,
+          "pct": 2.95
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1417664.3,
+          "pct": 0.71
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 5585682.96,
+          "pct": 2.78
+        }
+      ]
+    },
+    {
+      "mes": "2025/10",
+      "bruto_total": 208684775.69,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 319502.2,
+          "pct": 0.15
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 95318497.7,
+          "pct": 45.68
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 81717610.29,
+          "pct": 39.16
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 21792602.06,
+          "pct": 10.44
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3727306.74,
+          "pct": 1.79
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1315882.12,
+          "pct": 0.63
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 4493374.58,
+          "pct": 2.15
+        }
+      ]
+    },
+    {
+      "mes": "2025/11",
+      "bruto_total": 209065231.36,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 288635.45,
+          "pct": 0.14
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 96468587.97,
+          "pct": 46.14
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 83059013.42,
+          "pct": 39.73
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 20354343.45,
+          "pct": 9.74
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3129663.72,
+          "pct": 1.5
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1162713.06,
+          "pct": 0.56
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 4602274.29,
+          "pct": 2.2
+        }
+      ]
+    },
+    {
+      "mes": "2025/12",
+      "bruto_total": 200915379.55,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 737191.69,
+          "pct": 0.37
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 89026928.68,
+          "pct": 44.31
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 82911593.7,
+          "pct": 41.27
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 19183971.94,
+          "pct": 9.55
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4489083.58,
+          "pct": 2.23
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 931774.15,
+          "pct": 0.46
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 3634835.81,
+          "pct": 1.81
+        }
+      ]
+    },
+    {
+      "mes": "2026/01",
+      "bruto_total": 195795581.21,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 520648.39,
+          "pct": 0.27
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 86956942.46,
+          "pct": 44.41
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 75037454.46,
+          "pct": 38.32
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 23140206.3,
+          "pct": 11.82
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 5011767.47,
+          "pct": 2.56
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1364192.16,
+          "pct": 0.7
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 3764369.97,
+          "pct": 1.92
+        }
+      ]
+    },
+    {
+      "mes": "2026/02",
+      "bruto_total": 197562973.74,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 501534.16,
+          "pct": 0.25
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 100351495.45,
+          "pct": 50.79
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 67489257.13,
+          "pct": 34.16
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 18338974.43,
+          "pct": 9.28
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3791911.55,
+          "pct": 1.92
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 2117783.06,
+          "pct": 1.07
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 4972017.96,
+          "pct": 2.52
+        }
+      ]
+    },
+    {
+      "mes": "2026/03",
+      "bruto_total": 194556021.25,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 569410.19,
+          "pct": 0.29
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 87911796.13,
+          "pct": 45.19
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 77431305.61,
+          "pct": 39.8
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 18770121.14,
+          "pct": 9.65
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4068865.07,
+          "pct": 2.09
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1314044.57,
+          "pct": 0.68
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 4490478.54,
+          "pct": 2.31
+        }
+      ]
+    },
+    {
+      "mes": "2026/04",
+      "bruto_total": 219330502.88,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 618661.14,
+          "pct": 0.28
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 107642031.31,
+          "pct": 49.08
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 76090528.9,
+          "pct": 34.69
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 22798305.62,
+          "pct": 10.39
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4676151.99,
+          "pct": 2.13
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1723636.11,
+          "pct": 0.79
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 5781187.81,
+          "pct": 2.64
+        }
+      ]
+    },
+    {
+      "mes": "2026/05",
+      "bruto_total": 220775718.65,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 562159.95,
+          "pct": 0.25
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 98316534.06,
+          "pct": 44.53
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 91718076.01,
+          "pct": 41.54
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 19103352.29,
+          "pct": 8.65
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3998481.51,
+          "pct": 1.81
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1058908.52,
+          "pct": 0.48
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 6018206.31,
+          "pct": 2.73
+        }
+      ]
+    },
+    {
+      "mes": "2026/06",
+      "bruto_total": 217758775.96,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 539760.72,
+          "pct": 0.25
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 100325022.16,
+          "pct": 46.07
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 82032312.58,
+          "pct": 37.67
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 24051977.38,
+          "pct": 11.05
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4593213.03,
+          "pct": 2.11
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 920803.47,
+          "pct": 0.42
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 5295686.62,
+          "pct": 2.43
+        }
+      ]
+    },
+    {
+      "mes": "2026/07",
+      "bruto_total": 219516375.97,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 409612.86,
+          "pct": 0.19
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 101266456.23,
+          "pct": 46.13
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 84646037.8,
+          "pct": 38.56
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 20724219.66,
+          "pct": 9.44
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 5497166.53,
+          "pct": 2.5
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1837111.26,
+          "pct": 0.84
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 5135771.63,
+          "pct": 2.34
+        }
+      ]
+    },
+    {
+      "mes": "2026/08",
+      "bruto_total": 243886552.09,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 481968.96,
+          "pct": 0.2
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 113417773.64,
+          "pct": 46.5
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 94459441.66,
+          "pct": 38.73
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 23093524.82,
+          "pct": 9.47
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 4649663.4,
+          "pct": 1.91
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 1558479.97,
+          "pct": 0.64
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 6225699.64,
+          "pct": 2.55
+        }
+      ]
+    },
+    {
+      "mes": "2026/09",
+      "bruto_total": 206403048.59,
+      "por_lag": [
+        {
+          "lag": 0,
+          "label": "mesmo mês",
+          "bruto": 543648.88,
+          "pct": 0.26
+        },
+        {
+          "lag": 1,
+          "label": "1 mês antes",
+          "bruto": 95682503.78,
+          "pct": 46.36
+        },
+        {
+          "lag": 2,
+          "label": "2 meses antes",
+          "bruto": 80942603.52,
+          "pct": 39.22
+        },
+        {
+          "lag": 3,
+          "label": "3 meses antes",
+          "bruto": 20274047.27,
+          "pct": 9.82
+        },
+        {
+          "lag": 4,
+          "label": "4 meses antes",
+          "bruto": 3296576.79,
+          "pct": 1.6
+        },
+        {
+          "lag": 5,
+          "label": "5 meses antes",
+          "bruto": 870440.52,
+          "pct": 0.42
+        },
+        {
+          "lag": 6,
+          "label": "6+ meses",
+          "bruto": 4793227.83,
+          "pct": 2.32
+        }
+      ]
+    }
+  ]
+}

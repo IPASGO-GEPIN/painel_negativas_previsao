@@ -1,0 +1,486 @@
+{
+  "query": "REG05",
+  "fonte": "ipasgo.guias_autorizacao_pq",
+  "extraido_em": "2026-09-17",
+  "totais": {
+    "n_linhas": 54339494,
+    "n_guia_negada": 2172937,
+    "n_item_negado": 2500869,
+    "pct_guia_negada": 4.0,
+    "pct_item_negado": 4.6,
+    "n_com_codigo_motivo": 2500815,
+    "n_com_motivo": 2500815,
+    "n_com_data_negativa": 2500882,
+    "n_codigos_motivo_distintos": 366,
+    "n_motivos_distintos": 358
+  },
+  "nota_metodologica": "Perfil descritivo apenas. Rankings comportamentais ajustados por mix ficam para etapas posteriores.",
+  "top_motivos": [
+    {
+      "codigo_motivo": "451",
+      "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
+      "n": 1326389
+    },
+    {
+      "codigo_motivo": "-1",
+      "motivo": "SERVIÇO NEGADO",
+      "n": 283431
+    },
+    {
+      "codigo_motivo": "642",
+      "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
+      "n": 101822
+    },
+    {
+      "codigo_motivo": "192",
+      "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
+      "n": 81716
+    },
+    {
+      "codigo_motivo": "104",
+      "motivo": "PROCEDIMENTO ODONTOLÓGICO NÃO AUTORIZADO",
+      "n": 53078
+    },
+    {
+      "codigo_motivo": "200",
+      "motivo": "PROCEDIMENTO DESFAVORÁVEL APÓS ANÁLISE TÉCNICA.",
+      "n": 52518
+    },
+    {
+      "codigo_motivo": "651",
+      "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
+      "n": 50930
+    },
+    {
+      "codigo_motivo": "100",
+      "motivo": "NÃO AUTORIZADO PELA AUDITORIA",
+      "n": 46227
+    },
+    {
+      "codigo_motivo": "76",
+      "motivo": "PROCEDIMENTO NÃO AUTORIZADO",
+      "n": 37191
+    },
+    {
+      "codigo_motivo": "11",
+      "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
+      "n": 37099
+    },
+    {
+      "codigo_motivo": "18",
+      "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
+      "n": 35832
+    },
+    {
+      "codigo_motivo": "543",
+      "motivo": "NÃO AUTORIZADO POR MOTIVO TÉCNICO",
+      "n": 30854
+    },
+    {
+      "codigo_motivo": "52",
+      "motivo": "PROCEDIMENTO SOLICITADO EM TIPO DE GUIA INVÁLIDO.",
+      "n": 29835
+    },
+    {
+      "codigo_motivo": "112",
+      "motivo": "PROCEDIMENTO SOLICITADO NÃO ATENDE OS CRITÉRIOS DA NOTA TÉCNICA CONFORME REGULAMENTO DO PLANO",
+      "n": 28888
+    },
+    {
+      "codigo_motivo": "439",
+      "motivo": "GLOSA TÉCNICA (ESPECIFICAR DETALHADAMENTE)",
+      "n": 27162
+    },
+    {
+      "codigo_motivo": "138",
+      "motivo": "COBRANÇA DE PROCEDIMENTO EM DUPLICIDADE",
+      "n": 19731
+    },
+    {
+      "codigo_motivo": "644",
+      "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
+      "n": 19397
+    },
+    {
+      "codigo_motivo": "501",
+      "motivo": "SOLICITAÇÃO RETROATIVA SOLICITADA APÓS O DÉCIMO DIA CORRIDO DA ALTA.",
+      "n": 19279
+    },
+    {
+      "codigo_motivo": "521",
+      "motivo": "PROCEDIMENTO JÁ AUTORIZADO EM HISTÓRICO",
+      "n": 15297
+    },
+    {
+      "codigo_motivo": "81",
+      "motivo": "SERVIÇO SOLICITADO NÃO POSSUI COBERTURA",
+      "n": 12232
+    },
+    {
+      "codigo_motivo": "627",
+      "motivo": "EXAME ODONTOLÓGICO NÃO AUTORIZADO",
+      "n": 11604
+    },
+    {
+      "codigo_motivo": "629",
+      "motivo": "PROCEDIMENTO REALIZADO DENTRO DO PERÍODO DE RETOR",
+      "n": 11197
+    },
+    {
+      "codigo_motivo": "505",
+      "motivo": "CONFORME CONSENSO TÉCNICO",
+      "n": 10647
+    },
+    {
+      "codigo_motivo": "643",
+      "motivo": "SERVIÇO SOLICITADO DENTRO DO PRAZO DE RETORNO",
+      "n": 8696
+    },
+    {
+      "codigo_motivo": "106",
+      "motivo": "REAVALIAR AS FACES/ REGIÃO SOLICITADA",
+      "n": 8424
+    }
+  ],
+  "negativas_mensal": [
+    {
+      "mes": "2024/08",
+      "n_linhas": 1959082,
+      "n_guia_negada": 166681,
+      "n_item_negado": 180343,
+      "pct_guia_negada": 8.51,
+      "pct_item_negado": 9.21,
+      "n_neg_consulta": 13093,
+      "n_neg_sadt": 135721,
+      "n_neg_internacao": 6215,
+      "n_neg_odonto": 8320,
+      "imaturo": false
+    },
+    {
+      "mes": "2024/09",
+      "n_linhas": 1858326,
+      "n_guia_negada": 137877,
+      "n_item_negado": 147854,
+      "pct_guia_negada": 7.42,
+      "pct_item_negado": 7.96,
+      "n_neg_consulta": 7809,
+      "n_neg_sadt": 101157,
+      "n_neg_internacao": 9903,
+      "n_neg_odonto": 15396,
+      "imaturo": false
+    },
+    {
+      "mes": "2024/10",
+      "n_linhas": 1971924,
+      "n_guia_negada": 113437,
+      "n_item_negado": 124576,
+      "pct_guia_negada": 5.75,
+      "pct_item_negado": 6.32,
+      "n_neg_consulta": 8803,
+      "n_neg_sadt": 75928,
+      "n_neg_internacao": 10523,
+      "n_neg_odonto": 14376,
+      "imaturo": false
+    },
+    {
+      "mes": "2024/11",
+      "n_linhas": 1808443,
+      "n_guia_negada": 99909,
+      "n_item_negado": 109206,
+      "pct_guia_negada": 5.52,
+      "pct_item_negado": 6.04,
+      "n_neg_consulta": 5874,
+      "n_neg_sadt": 71751,
+      "n_neg_internacao": 7147,
+      "n_neg_odonto": 10553,
+      "imaturo": false
+    },
+    {
+      "mes": "2024/12",
+      "n_linhas": 1521510,
+      "n_guia_negada": 72248,
+      "n_item_negado": 80430,
+      "pct_guia_negada": 4.75,
+      "pct_item_negado": 5.29,
+      "n_neg_consulta": 4007,
+      "n_neg_sadt": 50860,
+      "n_neg_internacao": 7558,
+      "n_neg_odonto": 7297,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/01",
+      "n_linhas": 2143315,
+      "n_guia_negada": 64930,
+      "n_item_negado": 74481,
+      "pct_guia_negada": 3.03,
+      "pct_item_negado": 3.48,
+      "n_neg_consulta": 5604,
+      "n_neg_sadt": 40269,
+      "n_neg_internacao": 6077,
+      "n_neg_odonto": 10166,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/02",
+      "n_linhas": 1951025,
+      "n_guia_negada": 61719,
+      "n_item_negado": 69505,
+      "pct_guia_negada": 3.16,
+      "pct_item_negado": 3.56,
+      "n_neg_consulta": 4963,
+      "n_neg_sadt": 39841,
+      "n_neg_internacao": 3853,
+      "n_neg_odonto": 10998,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/03",
+      "n_linhas": 1945717,
+      "n_guia_negada": 63828,
+      "n_item_negado": 72939,
+      "pct_guia_negada": 3.28,
+      "pct_item_negado": 3.75,
+      "n_neg_consulta": 4161,
+      "n_neg_sadt": 42817,
+      "n_neg_internacao": 3184,
+      "n_neg_odonto": 9510,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/04",
+      "n_linhas": 1951177,
+      "n_guia_negada": 62905,
+      "n_item_negado": 76139,
+      "pct_guia_negada": 3.22,
+      "pct_item_negado": 3.9,
+      "n_neg_consulta": 3689,
+      "n_neg_sadt": 39463,
+      "n_neg_internacao": 4055,
+      "n_neg_odonto": 9136,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/05",
+      "n_linhas": 2057737,
+      "n_guia_negada": 77091,
+      "n_item_negado": 93263,
+      "pct_guia_negada": 3.75,
+      "pct_item_negado": 4.53,
+      "n_neg_consulta": 3850,
+      "n_neg_sadt": 51063,
+      "n_neg_internacao": 3176,
+      "n_neg_odonto": 9372,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/06",
+      "n_linhas": 1899141,
+      "n_guia_negada": 70079,
+      "n_item_negado": 84151,
+      "pct_guia_negada": 3.69,
+      "pct_item_negado": 4.43,
+      "n_neg_consulta": 3895,
+      "n_neg_sadt": 44926,
+      "n_neg_internacao": 3720,
+      "n_neg_odonto": 8922,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/07",
+      "n_linhas": 2221159,
+      "n_guia_negada": 73204,
+      "n_item_negado": 88493,
+      "pct_guia_negada": 3.3,
+      "pct_item_negado": 3.98,
+      "n_neg_consulta": 4341,
+      "n_neg_sadt": 50144,
+      "n_neg_internacao": 3533,
+      "n_neg_odonto": 10108,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/08",
+      "n_linhas": 2126802,
+      "n_guia_negada": 71600,
+      "n_item_negado": 84999,
+      "pct_guia_negada": 3.37,
+      "pct_item_negado": 4.0,
+      "n_neg_consulta": 4625,
+      "n_neg_sadt": 45028,
+      "n_neg_internacao": 3859,
+      "n_neg_odonto": 12330,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/09",
+      "n_linhas": 2278039,
+      "n_guia_negada": 82846,
+      "n_item_negado": 99284,
+      "pct_guia_negada": 3.64,
+      "pct_item_negado": 4.36,
+      "n_neg_consulta": 3921,
+      "n_neg_sadt": 58359,
+      "n_neg_internacao": 4328,
+      "n_neg_odonto": 9738,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/10",
+      "n_linhas": 2302067,
+      "n_guia_negada": 73765,
+      "n_item_negado": 88527,
+      "pct_guia_negada": 3.2,
+      "pct_item_negado": 3.85,
+      "n_neg_consulta": 4933,
+      "n_neg_sadt": 50938,
+      "n_neg_internacao": 3526,
+      "n_neg_odonto": 10473,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/11",
+      "n_linhas": 2015532,
+      "n_guia_negada": 63387,
+      "n_item_negado": 76677,
+      "pct_guia_negada": 3.14,
+      "pct_item_negado": 3.8,
+      "n_neg_consulta": 3636,
+      "n_neg_sadt": 45676,
+      "n_neg_internacao": 2776,
+      "n_neg_odonto": 8138,
+      "imaturo": false
+    },
+    {
+      "mes": "2025/12",
+      "n_linhas": 1763922,
+      "n_guia_negada": 59360,
+      "n_item_negado": 78148,
+      "pct_guia_negada": 3.37,
+      "pct_item_negado": 4.43,
+      "n_neg_consulta": 4332,
+      "n_neg_sadt": 40475,
+      "n_neg_internacao": 2967,
+      "n_neg_odonto": 7368,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/01",
+      "n_linhas": 2366577,
+      "n_guia_negada": 72149,
+      "n_item_negado": 85685,
+      "pct_guia_negada": 3.05,
+      "pct_item_negado": 3.62,
+      "n_neg_consulta": 5607,
+      "n_neg_sadt": 52858,
+      "n_neg_internacao": 2172,
+      "n_neg_odonto": 8293,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/02",
+      "n_linhas": 2098028,
+      "n_guia_negada": 74085,
+      "n_item_negado": 84671,
+      "pct_guia_negada": 3.53,
+      "pct_item_negado": 4.04,
+      "n_neg_consulta": 5986,
+      "n_neg_sadt": 55208,
+      "n_neg_internacao": 2581,
+      "n_neg_odonto": 7309,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/03",
+      "n_linhas": 2573214,
+      "n_guia_negada": 100966,
+      "n_item_negado": 114478,
+      "pct_guia_negada": 3.92,
+      "pct_item_negado": 4.45,
+      "n_neg_consulta": 4444,
+      "n_neg_sadt": 80595,
+      "n_neg_internacao": 2967,
+      "n_neg_odonto": 9699,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/04",
+      "n_linhas": 2367269,
+      "n_guia_negada": 97127,
+      "n_item_negado": 110613,
+      "pct_guia_negada": 4.1,
+      "pct_item_negado": 4.67,
+      "n_neg_consulta": 3891,
+      "n_neg_sadt": 78996,
+      "n_neg_internacao": 2375,
+      "n_neg_odonto": 8372,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/05",
+      "n_linhas": 2412034,
+      "n_guia_negada": 100572,
+      "n_item_negado": 111912,
+      "pct_guia_negada": 4.17,
+      "pct_item_negado": 4.64,
+      "n_neg_consulta": 4860,
+      "n_neg_sadt": 81720,
+      "n_neg_internacao": 2262,
+      "n_neg_odonto": 8671,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/06",
+      "n_linhas": 2377152,
+      "n_guia_negada": 100148,
+      "n_item_negado": 115326,
+      "pct_guia_negada": 4.21,
+      "pct_item_negado": 4.85,
+      "n_neg_consulta": 4923,
+      "n_neg_sadt": 80388,
+      "n_neg_internacao": 2895,
+      "n_neg_odonto": 9205,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/07",
+      "n_linhas": 2542775,
+      "n_guia_negada": 87970,
+      "n_item_negado": 102658,
+      "pct_guia_negada": 3.46,
+      "pct_item_negado": 4.04,
+      "n_neg_consulta": 4676,
+      "n_neg_sadt": 68337,
+      "n_neg_internacao": 2596,
+      "n_neg_odonto": 9069,
+      "imaturo": false
+    },
+    {
+      "mes": "2026/08",
+      "n_linhas": 2467507,
+      "n_guia_negada": 86656,
+      "n_item_negado": 100742,
+      "pct_guia_negada": 3.51,
+      "pct_item_negado": 4.08,
+      "n_neg_consulta": 4292,
+      "n_neg_sadt": 68616,
+      "n_neg_internacao": 2454,
+      "n_neg_odonto": 8596,
+      "imaturo": true
+    },
+    {
+      "mes": "2026/09",
+      "n_linhas": 1359974,
+      "n_guia_negada": 38381,
+      "n_item_negado": 45752,
+      "pct_guia_negada": 2.82,
+      "pct_item_negado": 3.36,
+      "n_neg_consulta": 2569,
+      "n_neg_sadt": 28891,
+      "n_neg_internacao": 817,
+      "n_neg_odonto": 4678,
+      "imaturo": true
+    }
+  ],
+  "nota_filtro": "Série mensal por data_negativa/data_sistema. Cards do filtro usam negativas_mensal; top motivos permanece global."
+}
