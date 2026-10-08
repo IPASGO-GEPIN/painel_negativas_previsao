@@ -5,87 +5,37 @@
   "fonte_cpagar": "ipasgo.cpagar_receber_pq",
   "chave_guia": "guiaoperadora",
   "chave_fatura": "codigo_fatura_fp = cod_fatura = codigo_fatura",
-  "extraido_em": "2026-09-18",
-  "nota_registro_eventos": "registro_eventos_conhecidos/liquidar/pagos sem resposta no Athena nesta rodada — caminho via faturas/cpagar.",
+  "extraido_em": "2026-10-08",
+  "nota_filtro": "KPIs usam despesa_liq (total de eventos). Para comparar com REG10 use despesa_liq_com_guia. Gráficos/tabela mensal e cards do filtro usam financeiro_mensal por competência fat.",
+  "escopo_liquido": {
+    "despesa_liq": "todos os eventos (inclui sem guiaoperadora)",
+    "despesa_liq_com_guia": "somente eventos com guia — alinhado a REG08/REG10",
+    "nota": "Diferença tipicamente <3%, mas pontual (ex. 2025/11) por poucos eventos de alto valor sem guia."
+  },
   "ciclo_por_guia_fat": {
-    "n_guias": 14253457,
-    "so_pago": 13257408,
-    "so_nao_pago": 980871,
-    "misto": 15178,
-    "pct_com_algum_pago": 93.15,
-    "liq_com_pago": 4090407260.48,
-    "liq_nao_pago": 261565588.93,
-    "p50_dias_real_rec": 26,
-    "p90_dias_real_rec": 85,
-    "p50_dias_rec_pag": 57,
-    "p90_dias_rec_pag": 60,
-    "p50_dias_real_pag": 80,
-    "p90_dias_real_pag": 137
+    "n_guias": 14553590,
+    "so_pago": 13454504,
+    "so_nao_pago": 1074600,
+    "misto": 24486,
+    "pct_com_algum_pago": 92.62,
+    "liq_com_pago": 4193661782.9495378,
+    "liq_nao_pago": 320209937.1900012,
+    "p50_dias_real_rec": 25.0,
+    "p90_dias_real_rec": 85.0,
+    "p50_dias_rec_pag": 57.0,
+    "p50_dias_real_pag": 80.0,
+    "p90_dias_real_pag": 137.0
   },
   "funil_autorizada": {
-    "n_auth": 13942978,
-    "com_fat": 11621369,
-    "com_pago": 10720721,
-    "pct_fat": 83.35,
-    "pct_pago_sobre_auth": 76.89,
-    "pct_pago_sobre_fat": 92.25,
-    "liq_paga": 3296235541.71,
-    "liq_fat_nao_paga": 240873415.65
+    "n_auth": 14332970,
+    "com_fat": 11893076,
+    "com_pago": 10916205,
+    "pct_fat": 82.98,
+    "pct_pago_sobre_auth": 76.16,
+    "pct_pago_sobre_fat": 91.79,
+    "liq_paga": 3393013354.159785,
+    "liq_fat_nao_paga": 292729090.87000155
   },
-  "bridge_fatura": {
-    "codigos_no_fat": 108006,
-    "faturas_total": 158387,
-    "intersecao_fat_faturas": 108006,
-    "pct_codigos_fat_em_faturas": 100,
-    "pct_faturas_com_eventos_v5": 68.19,
-    "pct_faturas_em_cpagar": 100
-  },
-  "faturas_por_situacao": [
-    {
-      "valor": "FECHADA",
-      "n": 140908,
-      "valor_real": 6696142858.3,
-      "total_pago": 6122697019.81
-    },
-    {
-      "valor": "ABERTA",
-      "n": 13162,
-      "valor_real": 22279170.14,
-      "total_pago": 0
-    },
-    {
-      "valor": "EM ANALISE",
-      "n": 4317,
-      "valor_real": 41551975.09,
-      "total_pago": 0
-    }
-  ],
-  "cpagar_resumo": [
-    {
-      "pago": "SIM",
-      "pagar_receber": "P",
-      "n": 311555,
-      "valor_pago": 6403644009.44
-    },
-    {
-      "pago": "NÃO",
-      "pagar_receber": "P",
-      "n": 33930,
-      "valor_pago": 0
-    },
-    {
-      "pago": "SIM",
-      "pagar_receber": "R",
-      "n": 11901,
-      "valor_pago": 182533995.37
-    },
-    {
-      "pago": "NÃO",
-      "pagar_receber": "R",
-      "n": 4945,
-      "valor_pago": 0
-    }
-  ],
   "financeiro_mensal": [
     {
       "mes": "2024/10",
@@ -144,7 +94,7 @@
       "copart": 16775124.43,
       "pct_guias_com_pago": 99.99,
       "pct_eventos_pago": 99.96,
-      "pct_liq_pago": 95,
+      "pct_liq_pago": 95.0,
       "imaturo": false
     },
     {
@@ -260,7 +210,7 @@
       "pct_liq_sem_guia": 1.09,
       "liq_pago": 196205270.04,
       "liq_nao_pago": 2168645.17,
-      "glosa": 10950968,
+      "glosa": 10950968.0,
       "copart": 22556695.43,
       "pct_guias_com_pago": 99.96,
       "pct_eventos_pago": 99.98,
@@ -298,7 +248,7 @@
       "despesa_liq_com_guia": 184018588.84,
       "despesa_liq_sem_guia": 1700284.37,
       "pct_liq_sem_guia": 0.92,
-      "liq_pago": 184009067,
+      "liq_pago": 184009067.0,
       "liq_nao_pago": 1709806.21,
       "glosa": 17142895.77,
       "copart": 20873383.57,
@@ -335,7 +285,7 @@
       "n_eventos_pago": 3366227,
       "n_guias_com_pago": 618327,
       "despesa_liq": 199779428.73,
-      "despesa_liq_com_guia": 196577529,
+      "despesa_liq_com_guia": 196577529.0,
       "despesa_liq_sem_guia": 3201899.73,
       "pct_liq_sem_guia": 1.6,
       "liq_pago": 196570197.7,
@@ -459,7 +409,7 @@
       "despesa_liq_sem_guia": 4738904.21,
       "pct_liq_sem_guia": 2.25,
       "liq_pago": 205902597.77,
-      "liq_nao_pago": 5067561,
+      "liq_nao_pago": 5067561.0,
       "glosa": 10838195.13,
       "copart": 25366348.54,
       "pct_guias_com_pago": 99.72,
@@ -472,17 +422,17 @@
       "n_guias": 599403,
       "n_eventos": 3523522,
       "n_eventos_sem_guia": 222,
-      "n_eventos_pago": 3518086,
-      "n_guias_com_pago": 596657,
+      "n_eventos_pago": 3518176,
+      "n_guias_com_pago": 596719,
       "despesa_liq": 209088760.77,
       "despesa_liq_com_guia": 206828319.3,
       "despesa_liq_sem_guia": 2260441.47,
       "pct_liq_sem_guia": 1.08,
-      "liq_pago": 206549328.48,
-      "liq_nao_pago": 2539432.29,
+      "liq_pago": 206557142.55,
+      "liq_nao_pago": 2531618.22,
       "glosa": 9901699.15,
       "copart": 24175559.48,
-      "pct_guias_com_pago": 99.54,
+      "pct_guias_com_pago": 99.55,
       "pct_eventos_pago": 99.85,
       "pct_liq_pago": 98.79,
       "imaturo": false
@@ -492,19 +442,19 @@
       "n_guias": 586241,
       "n_eventos": 3433362,
       "n_eventos_sem_guia": 146,
-      "n_eventos_pago": 3415474,
-      "n_guias_com_pago": 580361,
+      "n_eventos_pago": 3427469,
+      "n_guias_com_pago": 583200,
       "despesa_liq": 206681877.87,
       "despesa_liq_com_guia": 204293010.87,
-      "despesa_liq_sem_guia": 2388867,
+      "despesa_liq_sem_guia": 2388867.0,
       "pct_liq_sem_guia": 1.16,
-      "liq_pago": 203196326.76,
-      "liq_nao_pago": 3485551.11,
+      "liq_pago": 203718544.07,
+      "liq_nao_pago": 2963333.8,
       "glosa": 7024320.47,
       "copart": 24822062.24,
-      "pct_guias_com_pago": 99,
-      "pct_eventos_pago": 99.48,
-      "pct_liq_pago": 98.31,
+      "pct_guias_com_pago": 99.48,
+      "pct_eventos_pago": 99.83,
+      "pct_liq_pago": 98.57,
       "imaturo": false
     },
     {
@@ -532,46 +482,106 @@
       "n_guias": 644620,
       "n_eventos": 3752613,
       "n_eventos_sem_guia": 114,
-      "n_eventos_pago": 9446,
-      "n_guias_com_pago": 367,
-      "despesa_liq": 231036542.33,
-      "despesa_liq_com_guia": 229627091.33,
-      "despesa_liq_sem_guia": 1409451,
+      "n_eventos_pago": 669035,
+      "n_guias_com_pago": 205259,
+      "despesa_liq": 231362960.33,
+      "despesa_liq_com_guia": 229953509.33,
+      "despesa_liq_sem_guia": 1409451.0,
       "pct_liq_sem_guia": 0.61,
-      "liq_pago": 2552194.72,
-      "liq_nao_pago": 228484347.61,
+      "liq_pago": 47234037.38,
+      "liq_nao_pago": 184128922.95,
       "glosa": 9007606.97,
-      "copart": 27364753.23,
-      "pct_guias_com_pago": 0.06,
-      "pct_eventos_pago": 0.25,
-      "pct_liq_pago": 1.1,
+      "copart": 27038335.23,
+      "pct_guias_com_pago": 31.84,
+      "pct_eventos_pago": 17.83,
+      "pct_liq_pago": 20.42,
       "imaturo": true
     },
     {
       "mes": "2026/09",
-      "n_guias": 289769,
-      "n_eventos": 853888,
-      "n_eventos_sem_guia": 174,
-      "n_eventos_pago": 426,
-      "n_guias_com_pago": 5,
-      "despesa_liq": 48103046.35,
-      "despesa_liq_com_guia": 49066898.33,
-      "despesa_liq_sem_guia": -963851.98,
-      "pct_liq_sem_guia": -2,
-      "liq_pago": 51796.23,
-      "liq_nao_pago": 48051250.12,
-      "glosa": 1868576.56,
-      "copart": 12363942.81,
-      "pct_guias_com_pago": 0,
-      "pct_eventos_pago": 0.05,
-      "pct_liq_pago": 0.11,
+      "n_guias": 597977,
+      "n_eventos": 3620331,
+      "n_eventos_sem_guia": 3,
+      "n_eventos_pago": 5398,
+      "n_guias_com_pago": 235,
+      "despesa_liq": 210006835.77,
+      "despesa_liq_com_guia": 210284584.04,
+      "despesa_liq_sem_guia": -277748.27,
+      "pct_liq_sem_guia": -0.13,
+      "liq_pago": 2445121.76,
+      "liq_nao_pago": 207561714.01,
+      "glosa": 14918704.2,
+      "copart": 31652386.89,
+      "pct_guias_com_pago": 0.04,
+      "pct_eventos_pago": 0.15,
+      "pct_liq_pago": 1.16,
+      "imaturo": true
+    },
+    {
+      "mes": "2026/10",
+      "n_guias": 99,
+      "n_eventos": 1516,
+      "n_eventos_sem_guia": 0,
+      "n_eventos_pago": 0,
+      "n_guias_com_pago": 0,
+      "despesa_liq": 354767.02,
+      "despesa_liq_com_guia": 354767.02,
+      "despesa_liq_sem_guia": 0.0,
+      "pct_liq_sem_guia": 0.0,
+      "liq_pago": 0.0,
+      "liq_nao_pago": 354767.02,
+      "glosa": 0.0,
+      "copart": 57827.6,
+      "pct_guias_com_pago": 0.0,
+      "pct_eventos_pago": 0.0,
+      "pct_liq_pago": 0.0,
       "imaturo": true
     }
   ],
-  "nota_filtro": "KPIs usam despesa_liq (total). Para comparar com REG10 use despesa_liq_com_guia. KPIs usam despesa_liq (total). Para comparar com REG10 use despesa_liq_com_guia. KPIs globais permanecem de referência; gráficos/tabela mensal e cards do filtro usam financeiro_mensal por competência fat.",
-  "escopo_liquido": {
-    "despesa_liq": "todos os eventos (inclui sem guiaoperadora)",
-    "despesa_liq_com_guia": "somente eventos com guia — alinhado a REG08/REG10",
-    "nota": "Diferença tipicamente <3%, mas pontual (ex. 2025/11 = 11,55%) por poucos eventos de alto valor sem guia."
-  }
+  "faturas_por_situacao": [
+    {
+      "valor": "FECHADA",
+      "n": 141210,
+      "valor_real": 6699978367.979993,
+      "total_pago": 6374673742.039994
+    },
+    {
+      "valor": "EM ANALISE",
+      "n": 3912,
+      "valor_real": 251665645.53999993,
+      "total_pago": 0.0
+    },
+    {
+      "valor": "ABERTA",
+      "n": 6,
+      "valor_real": NaN,
+      "total_pago": NaN
+    }
+  ],
+  "cpagar_resumo": [
+    {
+      "pago": "SIM",
+      "pagar_receber": "P",
+      "n": 322573,
+      "valor_pago": 6656294419.169999
+    },
+    {
+      "pago": "NÃO",
+      "pagar_receber": "P",
+      "n": 13554,
+      "valor_pago": 0.0
+    },
+    {
+      "pago": "SIM",
+      "pagar_receber": "R",
+      "n": 12026,
+      "valor_pago": 184115163.98
+    },
+    {
+      "pago": "NÃO",
+      "pagar_receber": "R",
+      "n": 4917,
+      "valor_pago": 0.0
+    }
+  ]
 }

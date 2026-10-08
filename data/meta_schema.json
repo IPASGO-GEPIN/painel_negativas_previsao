@@ -3,7 +3,7 @@
   "tabelas": [
     {
       "name": "dim_fluxo",
-      "n_linhas": 5,
+      "n_linhas": 12,
       "colunas": [
         {
           "name": "fluxo",
@@ -16,7 +16,7 @@
     },
     {
       "name": "dim_login",
-      "n_linhas": 1,
+      "n_linhas": 264,
       "colunas": [
         {
           "name": "login",
@@ -29,7 +29,7 @@
     },
     {
       "name": "dim_mes",
-      "n_linhas": 27,
+      "n_linhas": 28,
       "colunas": [
         {
           "name": "mes",
@@ -55,7 +55,7 @@
     },
     {
       "name": "fato_auth_fat",
-      "n_linhas": 31,
+      "n_linhas": 5348,
       "colunas": [
         {
           "name": "mes",
@@ -97,7 +97,7 @@
     },
     {
       "name": "fato_fila",
-      "n_linhas": 243,
+      "n_linhas": 524,
       "colunas": [
         {
           "name": "mes",
@@ -142,8 +142,42 @@
       "paginas": "Filas, Início"
     },
     {
+      "name": "fato_fila_plano",
+      "n_linhas": 20,
+      "colunas": [
+        {
+          "name": "codigo_plano",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "nome_plano",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "n_itens",
+          "type": "BIGINT"
+        },
+        {
+          "name": "idade_p50",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "n_itens_estouro",
+          "type": "BIGINT"
+        },
+        {
+          "name": "pct_estouro",
+          "type": "DOUBLE"
+        }
+      ],
+      "camada": "cubo",
+      "papel": "Fila / RN 259 por plano (join item→auth).",
+      "origem": "fila ⋈ guias",
+      "paginas": "Filas · por plano"
+    },
+    {
       "name": "fato_financeiro",
-      "n_linhas": 24,
+      "n_linhas": 25,
       "colunas": [
         {
           "name": "mes",
@@ -200,8 +234,42 @@
       "paginas": "Pagamento, Início"
     },
     {
+      "name": "fato_negativa_plano",
+      "n_linhas": 20,
+      "colunas": [
+        {
+          "name": "codigo_plano",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "nome_plano",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "n_linhas",
+          "type": "BIGINT"
+        },
+        {
+          "name": "n_guia_negada",
+          "type": "BIGINT"
+        },
+        {
+          "name": "n_item_negado",
+          "type": "BIGINT"
+        },
+        {
+          "name": "pct_guia_negada",
+          "type": "DOUBLE"
+        }
+      ],
+      "camada": "cubo",
+      "papel": "Negativas agregadas por plano (quando materializado no ETL).",
+      "origem": "guias_autorizacao_pq",
+      "paginas": "Negativas · por plano"
+    },
+    {
       "name": "fato_sla",
-      "n_linhas": 103,
+      "n_linhas": 126,
       "colunas": [
         {
           "name": "mes",
@@ -244,6 +312,36 @@
       "papel": "Itens dentro/fora do prazo de SLA.",
       "origem": "sla_fila_itens_regulacao_hist_pq",
       "paginas": "SLA, Início"
+    },
+    {
+      "name": "fato_sla_plano",
+      "n_linhas": 20,
+      "colunas": [
+        {
+          "name": "codigo_plano",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "nome_plano",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "n_itens",
+          "type": "BIGINT"
+        },
+        {
+          "name": "n_itens_fora",
+          "type": "BIGINT"
+        },
+        {
+          "name": "pct_fora",
+          "type": "DOUBLE"
+        }
+      ],
+      "camada": "cubo",
+      "papel": "SLA fora do prazo por plano.",
+      "origem": "sla ⋈ guias",
+      "paginas": "SLA · por plano"
     },
     {
       "name": "meta_conversao",
@@ -423,8 +521,11 @@
       "tabelas": [
         "fato_auth_fat",
         "fato_fila",
+        "fato_fila_plano",
         "fato_financeiro",
-        "fato_sla"
+        "fato_negativa_plano",
+        "fato_sla",
+        "fato_sla_plano"
       ]
     },
     {
@@ -448,7 +549,7 @@
       ]
     }
   ],
-  "mermaid": "erDiagram\n  dim_mes ||--o{ fato_fila : filtra\n  dim_mes ||--o{ fato_sla : filtra\n  dim_mes ||--o{ fato_auth_fat : filtra\n  dim_mes ||--o{ fato_financeiro : filtra\n  dim_tipo ||--o{ fato_fila : tipo\n  dim_fluxo ||--o{ fato_fila : fluxo\n  dim_fluxo ||--o{ fato_sla : fluxo\n  dim_fluxo ||--o{ fato_auth_fat : fluxo\n  dim_login ||--o{ fato_auth_fat : login\n  meta_etl ||--o| meta_conversao : watermark\n  dim_fluxo { string id }\n  dim_login { string id }\n  dim_mes { string id }\n  dim_tipo { string id }\n  fato_auth_fat { string id }\n  fato_fila { string id }\n  fato_financeiro { string id }\n  fato_sla { string id }\n  meta_conversao { string id }\n  meta_etl { string id }",
-  "extraido_em": "2026-10-06",
+  "mermaid": "erDiagram\n  dim_mes ||--o{ fato_fila : filtra\n  dim_mes ||--o{ fato_sla : filtra\n  dim_mes ||--o{ fato_auth_fat : filtra\n  dim_mes ||--o{ fato_financeiro : filtra\n  dim_tipo ||--o{ fato_fila : tipo\n  dim_fluxo ||--o{ fato_fila : fluxo\n  dim_fluxo ||--o{ fato_sla : fluxo\n  dim_fluxo ||--o{ fato_auth_fat : fluxo\n  dim_login ||--o{ fato_auth_fat : login\n  meta_etl ||--o| meta_conversao : watermark\n  dim_fluxo { string id }\n  dim_login { string id }\n  dim_mes { string id }\n  dim_tipo { string id }\n  fato_auth_fat { string id }\n  fato_fila { string id }\n  fato_fila_plano { string id }\n  fato_financeiro { string id }\n  fato_negativa_plano { string id }\n  fato_sla { string id }\n  fato_sla_plano { string id }\n  meta_conversao { string id }\n  meta_etl { string id }",
+  "extraido_em": "2026-10-08",
   "modo": "duckdb"
 }

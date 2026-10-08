@@ -2,7 +2,7 @@
   "query": "REG10",
   "fonte_repo": "previsao_auth_faturamento",
   "modelo_oficial": "hibrido_volSeg_valAgg_WF (volume segmentado + valor agregado; neste painel exibimos o forecast agregado calibrado ja gerado)",
-  "extraido_em": "2026-09-17",
+  "extraido_em": "2026-10-08",
   "referencia_docs": [
     "previsao_auth_faturamento/docs/etapas/01-deduplicacao-e-pareamento.md",
     "previsao_auth_faturamento/docs/etapas/02-triangulo-de-lag.md",
@@ -26,11 +26,11 @@
     "4": 0.003449
   },
   "taxas_lag_forecast_ago2026": {
-    "0": 0.0060061668056035,
-    "1": 0.6503613653640149,
-    "2": 0.2287787023075486,
-    "3": 0.0291993141460365,
-    "4": 0.003209739474214
+    "0": 0.0060062057150832,
+    "1": 0.650365235068174,
+    "2": 0.2287799327892366,
+    "3": 0.0291994513919849,
+    "4": 0.0032097555150315
   },
   "triangulo_exemplo_2025_08": [
     {
@@ -100,7 +100,7 @@
     {
       "comp": "2025/12",
       "cov_guias_old": 1.262,
-      "cov_liq_1a": 1.117,
+      "cov_liq_1a": 1.1169,
       "guias_reapres": 8457,
       "liq_reapres": 17833811.65,
       "liq_mes": 191789894.46
@@ -157,34 +157,34 @@
   "backtest_walkforward_agg": [
     {
       "modelo": "pipeline_guias_vs_pareado",
-      "mape_guias": 2.26370471190026,
-      "mape_liq": 16.943980284242322,
-      "bias_guias_pct": -2.036464578538377,
-      "bias_liq_pct": -16.943980284242322,
+      "mape_guias": 2.265154249968706,
+      "mape_liq": 16.945376966810144,
+      "bias_guias_pct": -2.038288923557483,
+      "bias_liq_pct": -16.945376966810144,
       "n_periodos": 8
     },
     {
       "modelo": "pipeline_liq_cal_vs_pareado",
-      "mape_guias": 2.26370471190026,
-      "mape_liq": 6.399561741706915,
-      "bias_guias_pct": -2.036464578538377,
-      "bias_liq_pct": 0.898764234102245,
+      "mape_guias": 2.265154249968706,
+      "mape_liq": 6.398285593581419,
+      "bias_guias_pct": -2.038288923557483,
+      "bias_liq_pct": 0.8985777155932919,
       "n_periodos": 8
     },
     {
       "modelo": "triangulo_guias_total",
-      "mape_guias": 4.309634577594232,
-      "mape_liq": 5.827742920160469,
-      "bias_guias_pct": -0.6005969415531485,
-      "bias_liq_pct": 0.1762477026091773,
+      "mape_guias": 4.310743229777776,
+      "mape_liq": 5.8264497875132655,
+      "bias_guias_pct": -0.6024636232282864,
+      "bias_liq_pct": 0.1753374092897545,
       "n_periodos": 8
     },
     {
       "modelo": "baseline_lag12_total",
-      "mape_guias": 4.669615228975201,
-      "mape_liq": 18.556194588899004,
-      "bias_guias_pct": -1.6514703602944891,
-      "bias_liq_pct": -18.556194588899004,
+      "mape_guias": 4.670836827998963,
+      "mape_liq": 18.55839406281897,
+      "bias_guias_pct": -1.6532991195058937,
+      "bias_liq_pct": -18.55839406281897,
       "n_periodos": 8
     }
   ],
@@ -200,7 +200,7 @@
         "pred_guias": 621225,
         "erro_guias_pct": -5.22,
         "real_liq": 198377506.55,
-        "pred_liq_cal": 181647206.52,
+        "pred_liq_cal": 181649923.57,
         "erro_liq_pct": -8.43,
         "real_guias_pareadas": 538933,
         "pred_guias_pipeline": 530456,
@@ -209,138 +209,138 @@
       {
         "comp": "2025/12",
         "real_guias": 629344,
-        "pred_guias": 576528,
+        "pred_guias": 576527,
         "erro_guias_pct": -8.39,
         "real_liq": 191789894.46,
-        "pred_liq_cal": 182967690.1,
+        "pred_liq_cal": 182970144.76,
         "erro_liq_pct": -4.6,
         "real_guias_pareadas": 498673,
-        "pred_guias_pipeline": 484064,
+        "pred_guias_pipeline": 484063,
         "erro_pipeline_vs_pareado_pct": -2.93
       },
       {
         "comp": "2026/01",
         "real_guias": 498835,
-        "pred_guias": 501257,
-        "erro_guias_pct": 0.49,
+        "pred_guias": 501254,
+        "erro_guias_pct": 0.48,
         "real_liq": 182971869.94,
-        "pred_liq_cal": 168217392.25,
+        "pred_liq_cal": 168216658.72,
         "erro_liq_pct": -8.06,
         "real_guias_pareadas": 433279,
-        "pred_guias_pipeline": 419937,
+        "pred_guias_pipeline": 419935,
         "erro_pipeline_vs_pareado_pct": -3.08
       },
       {
         "comp": "2026/02",
         "real_guias": 539097,
-        "pred_guias": 579881,
-        "erro_guias_pct": 7.57,
+        "pred_guias": 579876,
+        "erro_guias_pct": 7.56,
         "real_liq": 182836568.82,
-        "pred_liq_cal": 180078138.44,
+        "pred_liq_cal": 180076827.05,
         "erro_liq_pct": -1.51,
         "real_guias_pareadas": 490411,
-        "pred_guias_pipeline": 485805,
+        "pred_guias_pipeline": 485801,
         "erro_pipeline_vs_pareado_pct": -0.94
       },
       {
         "comp": "2026/03",
         "real_guias": 527596,
-        "pred_guias": 563395,
-        "erro_guias_pct": 6.79,
+        "pred_guias": 563387,
+        "erro_guias_pct": 6.78,
         "real_liq": 182753654.25,
-        "pred_liq_cal": 192885250.84,
+        "pred_liq_cal": 192882878.14,
         "erro_liq_pct": 5.54,
         "real_guias_pareadas": 471657,
-        "pred_guias_pipeline": 475944,
+        "pred_guias_pipeline": 475937,
         "erro_pipeline_vs_pareado_pct": 0.91
       },
       {
         "comp": "2026/04",
         "real_guias": 629514,
-        "pred_guias": 606066,
-        "erro_guias_pct": -3.72,
+        "pred_guias": 606050,
+        "erro_guias_pct": -3.73,
         "real_liq": 206231254.56,
-        "pred_liq_cal": 209214404.43,
-        "erro_liq_pct": 1.45,
+        "pred_liq_cal": 209209666.85,
+        "erro_liq_pct": 1.44,
         "real_guias_pareadas": 556855,
-        "pred_guias_pipeline": 534002,
-        "erro_pipeline_vs_pareado_pct": -4.1
+        "pred_guias_pipeline": 533988,
+        "erro_pipeline_vs_pareado_pct": -4.11
       },
       {
         "comp": "2026/05",
         "real_guias": 599403,
-        "pred_guias": 589321,
+        "pred_guias": 589305,
         "erro_guias_pct": -1.68,
         "real_liq": 206828319.3,
-        "pred_liq_cal": 223983443.26,
+        "pred_liq_cal": 223980694.65,
         "erro_liq_pct": 8.29,
         "real_guias_pareadas": 530045,
-        "pred_guias_pipeline": 524055,
+        "pred_guias_pipeline": 524040,
         "erro_pipeline_vs_pareado_pct": -1.13
       },
       {
         "comp": "2026/06",
         "real_guias": 586241,
-        "pred_guias": 582596,
-        "erro_guias_pct": -0.62,
+        "pred_guias": 582559,
+        "erro_guias_pct": -0.63,
         "real_liq": 204293010.87,
-        "pred_liq_cal": 222130287.64,
+        "pred_liq_cal": 222122342.18,
         "erro_liq_pct": 8.73,
         "real_guias_pareadas": 536563,
-        "pred_guias_pipeline": 518074,
+        "pred_guias_pipeline": 518041,
         "erro_pipeline_vs_pareado_pct": -3.45
       }
     ]
   },
   "forecast_2026_08": {
     "comp_alvo": "2026/08",
-    "pred_guias_pipeline": 528328,
-    "pred_guias_total": 597363,
-    "pred_liq_pipeline_cal": 202276745.0907478,
-    "pred_liq_total_cal": 226400894.5078422,
+    "pred_guias_pipeline": 526022,
+    "pred_guias_total": 594756,
+    "pred_liq_pipeline_cal": 201676165.94947892,
+    "pred_liq_total_cal": 225725363.78122965,
     "coverage_n": 1.1306670228545133,
-    "coverage_v": 1.1192630888255175,
-    "val_factor": 1.2148278304138307,
+    "coverage_v": 1.119246603675395,
+    "val_factor": 1.2148460137525725,
     "contrib_por_lag": [
       {
         "lag": 0,
         "comp_auth": "2026/08",
         "n_auth": 0,
-        "rate_n": 0.0060061668056035,
+        "rate_n": 0.0060062057150832,
         "contrib_guias": 0,
         "contrib_liq": 0.0
       },
       {
         "lag": 1,
         "comp_auth": "2026/07",
-        "n_auth": 588244,
-        "rate_n": 0.6503613653640149,
-        "contrib_guias": 382571,
-        "contrib_liq": 80203911.55097109
+        "n_auth": 584753,
+        "rate_n": 0.650365235068174,
+        "contrib_guias": 380303,
+        "contrib_liq": 79728447.92466708
       },
       {
         "lag": 2,
         "comp_auth": "2026/06",
-        "n_auth": 556909,
-        "rate_n": 0.2287787023075486,
-        "contrib_guias": 127408,
-        "contrib_liq": 70519114.23324154
+        "n_auth": 556745,
+        "rate_n": 0.2287799327892366,
+        "contrib_guias": 127372,
+        "contrib_liq": 70498776.36969279
       },
       {
         "lag": 3,
         "comp_auth": "2026/05",
-        "n_auth": 566624,
-        "rate_n": 0.0291993141460365,
-        "contrib_guias": 16545,
-        "contrib_liq": 13820234.719515163
+        "n_auth": 566579,
+        "rate_n": 0.0291994513919849,
+        "contrib_guias": 16543,
+        "contrib_liq": 13819219.6148867
       },
       {
         "lag": 4,
         "comp_auth": "2026/04",
-        "n_auth": 561926,
-        "rate_n": 0.003209739474214,
+        "n_auth": 561910,
+        "rate_n": 0.0032097555150315,
         "contrib_guias": 1803,
-        "contrib_liq": 1963251.799206744
+        "contrib_liq": 1963209.71468533
       }
     ]
   },

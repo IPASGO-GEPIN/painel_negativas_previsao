@@ -26,7 +26,8 @@
     "2026/06",
     "2026/07",
     "2026/08",
-    "2026/09"
+    "2026/09",
+    "2026/10"
   ],
   "fluxos": [
     "FLUXO DE LIBERAÇÃO SEM OPME",
@@ -38,13 +39,14 @@
     "ATENDIMENTO DOMICILIAR IMPACTO",
     "ANÁLISE PÓS-ATENDIMENTO DAS GUIAS DE URGÊNCIA",
     "PRORROGAÇÃO DOMICILIAR",
-    "INTERNAÇÃO DOMICILIAR"
+    "INTERNAÇÃO DOMICILIAR",
+    "FLUXO PARA PEDIDOS DE EXAMES CONVERTIDOS"
   ],
   "logins": [],
-  "extraido_em": "2026-09-17",
-  "mes_fim": "2026/09",
-  "mes_corte_imaturos": "2026/06",
+  "extraido_em": "2026-10-08",
+  "mes_fim": "2026/10",
+  "mes_corte_imaturos": "2026/07",
   "modo": "static",
-  "gerado_em": "2026-10-06T09:35:15",
+  "gerado_em": "2026-10-08T16:11:55",
   "painel": "negativas_previsao"
 }

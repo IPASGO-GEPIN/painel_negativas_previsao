@@ -1,6 +1,6 @@
 {
-  "fonte": "COINI dim_produtos (fallback derivado)",
-  "extraido_em": "2026-10-02",
+  "fonte": "COINI dim_produtos (live)",
+  "extraido_em": "2026-10-08",
   "produtos": [
     {
       "codigo_plano": "1",

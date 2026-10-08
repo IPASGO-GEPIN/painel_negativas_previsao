@@ -1,627 +1,627 @@
 {
-  "extraido_em": "2026-10-02",
+  "extraido_em": "2026-10-08",
   "janela": "2025/09 → atual",
   "nota": "Segregação por codigo_plano (autorização). Todos os planos Athena na janela; fila e SLA cruzam o item com a guia.",
   "negativas": [
     {
       "codigo_plano": "3",
       "nome_plano": "ESTADO BASICO ATUARIAL",
-      "n_linhas": 7212569,
-      "n_guia_negada": 240654,
-      "n_item_negado": 284454,
+      "n_linhas": 7333862,
+      "n_guia_negada": 245117,
+      "n_item_negado": 289665,
       "pct_guia_negada": 3.34,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 181074
+          "n": 184376
         },
         {
           "tipo": "odonto",
-          "n": 27803
+          "n": 28211
         },
         {
           "tipo": "consulta",
-          "n": 13492
+          "n": 13680
         },
         {
           "tipo": "outros",
-          "n": 10322
+          "n": 10686
         },
         {
           "tipo": "internacao",
-          "n": 7963
+          "n": 8164
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 156927
+          "n": 159915
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 12248
+          "n": 12453
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 10350
+          "n": 10524
         },
         {
           "codigo": "18",
           "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
-          "n": 9514
+          "n": 9556
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 7764
+          "n": 7881
         }
       ]
     },
     {
       "codigo_plano": "1",
       "nome_plano": "ESTADO BASICO PERCENTUAL",
-      "n_linhas": 5799784,
-      "n_guia_negada": 199083,
-      "n_item_negado": 234359,
-      "pct_guia_negada": 3.43,
+      "n_linhas": 5891402,
+      "n_guia_negada": 203267,
+      "n_item_negado": 238947,
+      "pct_guia_negada": 3.45,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 145259
+          "n": 148643
         },
         {
           "tipo": "odonto",
-          "n": 27255
+          "n": 27588
         },
         {
           "tipo": "consulta",
-          "n": 11828
+          "n": 12012
         },
         {
           "tipo": "outros",
-          "n": 8492
+          "n": 8605
         },
         {
           "tipo": "internacao",
-          "n": 6249
+          "n": 6419
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 134531
+          "n": 137387
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 10766
+          "n": 10923
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 8206
+          "n": 8336
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 6177
+          "n": 6284
         },
         {
           "codigo": "644",
           "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
-          "n": 3756
+          "n": 3994
         }
       ]
     },
     {
       "codigo_plano": "2",
       "nome_plano": "ESTADO ESPECIAL PERCENTUAL",
-      "n_linhas": 5365558,
-      "n_guia_negada": 172489,
-      "n_item_negado": 203081,
-      "pct_guia_negada": 3.21,
+      "n_linhas": 5452262,
+      "n_guia_negada": 175443,
+      "n_item_negado": 206471,
+      "pct_guia_negada": 3.22,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 131898
+          "n": 134217
         },
         {
           "tipo": "odonto",
-          "n": 15738
+          "n": 15922
         },
         {
           "tipo": "consulta",
-          "n": 9918
+          "n": 10114
         },
         {
           "tipo": "outros",
-          "n": 8495
+          "n": 8601
         },
         {
           "tipo": "internacao",
-          "n": 6440
+          "n": 6589
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 118951
+          "n": 121012
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 9297
+          "n": 9502
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 6802
+          "n": 6915
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 5659
+          "n": 5727
         },
         {
           "codigo": "18",
           "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
-          "n": 5427
+          "n": 5523
         }
       ]
     },
     {
       "codigo_plano": "4",
       "nome_plano": "ESTADO ESPECIAL ATUARIAL",
-      "n_linhas": 3464659,
-      "n_guia_negada": 122348,
-      "n_item_negado": 148451,
-      "pct_guia_negada": 3.53,
+      "n_linhas": 3525802,
+      "n_guia_negada": 125562,
+      "n_item_negado": 152121,
+      "pct_guia_negada": 3.56,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 97003
+          "n": 99761
         },
         {
           "tipo": "odonto",
-          "n": 12453
+          "n": 12659
         },
         {
           "tipo": "consulta",
-          "n": 6033
+          "n": 6153
         },
         {
           "tipo": "outros",
-          "n": 4026
+          "n": 4079
         },
         {
           "tipo": "internacao",
-          "n": 2833
+          "n": 2910
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 85573
+          "n": 87870
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 5505
+          "n": 5627
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 5138
+          "n": 5267
         },
         {
           "codigo": "18",
           "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
-          "n": 3384
+          "n": 3405
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 3070
+          "n": 3107
         }
       ]
     },
     {
       "codigo_plano": "13",
       "nome_plano": "CONVENIO BASICO PERCENTUAL",
-      "n_linhas": 2930811,
-      "n_guia_negada": 110255,
-      "n_item_negado": 127006,
-      "pct_guia_negada": 3.76,
+      "n_linhas": 2977358,
+      "n_guia_negada": 112586,
+      "n_item_negado": 129698,
+      "pct_guia_negada": 3.78,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 84163
+          "n": 86044
         },
         {
           "tipo": "odonto",
-          "n": 12222
+          "n": 12387
         },
         {
           "tipo": "consulta",
-          "n": 6160
+          "n": 6258
         },
         {
           "tipo": "outros",
-          "n": 4070
+          "n": 4130
         },
         {
           "tipo": "internacao",
-          "n": 3640
+          "n": 3767
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 75365
+          "n": 76961
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 5433
+          "n": 5539
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 4524
+          "n": 4604
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 2968
+          "n": 3023
         },
         {
           "codigo": "644",
           "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
-          "n": 2682
+          "n": 2830
         }
       ]
     },
     {
       "codigo_plano": "15",
       "nome_plano": "CONVENIO BASICO ATUARIAL",
-      "n_linhas": 1574188,
-      "n_guia_negada": 59860,
-      "n_item_negado": 68068,
-      "pct_guia_negada": 3.8,
+      "n_linhas": 1602817,
+      "n_guia_negada": 61100,
+      "n_item_negado": 69330,
+      "pct_guia_negada": 3.81,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 46237
+          "n": 47280
         },
         {
           "tipo": "odonto",
-          "n": 6589
+          "n": 6668
         },
         {
           "tipo": "consulta",
-          "n": 3431
+          "n": 3496
         },
         {
           "tipo": "outros",
-          "n": 1836
+          "n": 1866
         },
         {
           "tipo": "internacao",
-          "n": 1767
+          "n": 1790
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 38507
+          "n": 39408
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 2882
-        },
-        {
-          "codigo": "18",
-          "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
-          "n": 2340
+          "n": 2938
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 2328
+          "n": 2418
+        },
+        {
+          "codigo": "18",
+          "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
+          "n": 2347
         },
         {
           "codigo": "644",
           "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
-          "n": 2200
+          "n": 2220
         }
       ]
     },
     {
       "codigo_plano": "21",
       "nome_plano": "IPASGO SAUDE FAMILIA",
-      "n_linhas": 577826,
-      "n_guia_negada": 40714,
-      "n_item_negado": 43885,
-      "pct_guia_negada": 7.05,
+      "n_linhas": 593448,
+      "n_guia_negada": 42241,
+      "n_item_negado": 45487,
+      "pct_guia_negada": 7.12,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 32809
+          "n": 34119
         },
         {
           "tipo": "consulta",
-          "n": 2273
+          "n": 2334
         },
         {
           "tipo": "odonto",
-          "n": 2046
+          "n": 2093
         },
         {
           "tipo": "internacao",
-          "n": 1872
+          "n": 1927
         },
         {
           "tipo": "outros",
-          "n": 1714
+          "n": 1768
         }
       ],
       "top_motivos": [
         {
           "codigo": "11",
           "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
-          "n": 17506
+          "n": 17902
         },
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 15373
+          "n": 16274
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 1227
+          "n": 1230
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 1060
+          "n": 1092
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 815
+          "n": 830
         }
       ]
     },
     {
       "codigo_plano": "14",
       "nome_plano": "CONVENIO ESPECIAL PERCENTUAL",
-      "n_linhas": 1005441,
-      "n_guia_negada": 34156,
-      "n_item_negado": 39121,
-      "pct_guia_negada": 3.4,
+      "n_linhas": 1021529,
+      "n_guia_negada": 34922,
+      "n_item_negado": 40009,
+      "pct_guia_negada": 3.42,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 26687
+          "n": 27328
         },
         {
           "tipo": "odonto",
-          "n": 2617
+          "n": 2659
         },
         {
           "tipo": "consulta",
-          "n": 1929
+          "n": 1949
         },
         {
           "tipo": "outros",
-          "n": 1488
+          "n": 1511
         },
         {
           "tipo": "internacao",
-          "n": 1435
+          "n": 1475
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 24153
+          "n": 24763
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 1700
+          "n": 1723
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 1312
+          "n": 1321
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 1173
+          "n": 1181
         },
         {
-          "codigo": "644",
-          "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
-          "n": 769
+          "codigo": "200",
+          "motivo": "PROCEDIMENTO DESFAVORÁVEL APÓS ANÁLISE TÉCNICA.",
+          "n": 802
         }
       ]
     },
     {
       "codigo_plano": "16",
       "nome_plano": "CONVENIO ESPECIAL ATUARIAL",
-      "n_linhas": 632527,
-      "n_guia_negada": 26765,
-      "n_item_negado": 30693,
-      "pct_guia_negada": 4.23,
+      "n_linhas": 643691,
+      "n_guia_negada": 28056,
+      "n_item_negado": 32068,
+      "pct_guia_negada": 4.36,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 21956
+          "n": 23155
         },
         {
           "tipo": "odonto",
-          "n": 2502
+          "n": 2547
         },
         {
           "tipo": "consulta",
-          "n": 1352
+          "n": 1387
         },
         {
           "tipo": "internacao",
-          "n": 601
+          "n": 606
         },
         {
           "tipo": "outros",
-          "n": 354
+          "n": 361
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 18977
+          "n": 19687
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 1261
+          "n": 1280
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 1095
-        },
-        {
-          "codigo": "192",
-          "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 685
+          "n": 1127
         },
         {
           "codigo": "644",
           "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
-          "n": 645
+          "n": 947
+        },
+        {
+          "codigo": "192",
+          "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
+          "n": 691
         }
       ]
     },
     {
       "codigo_plano": "20",
       "nome_plano": "IPASGO SAUDE CERRADO",
-      "n_linhas": 408814,
-      "n_guia_negada": 26047,
-      "n_item_negado": 28552,
+      "n_linhas": 419840,
+      "n_guia_negada": 26754,
+      "n_item_negado": 29324,
       "pct_guia_negada": 6.37,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 20119
+          "n": 20693
         },
         {
           "tipo": "odonto",
-          "n": 2283
+          "n": 2334
         },
         {
           "tipo": "consulta",
-          "n": 1845
+          "n": 1887
         },
         {
           "tipo": "outros",
-          "n": 1014
+          "n": 1024
         },
         {
           "tipo": "internacao",
-          "n": 786
+          "n": 816
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 10213
+          "n": 10564
         },
         {
           "codigo": "11",
           "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
-          "n": 10115
+          "n": 10318
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 799
+          "n": 819
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 752
+          "n": 774
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 580
+          "n": 584
         }
       ]
     },
     {
       "codigo_plano": "10",
       "nome_plano": "EMENDA CONST ESPECIAL PERCENTUAL",
-      "n_linhas": 754641,
-      "n_guia_negada": 19366,
-      "n_item_negado": 23099,
-      "pct_guia_negada": 2.57,
+      "n_linhas": 765039,
+      "n_guia_negada": 19613,
+      "n_item_negado": 23419,
+      "pct_guia_negada": 2.56,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 15979
+          "n": 16147
         },
         {
           "tipo": "outros",
-          "n": 1046
+          "n": 1076
         },
         {
           "tipo": "consulta",
-          "n": 931
+          "n": 945
         },
         {
           "tipo": "odonto",
-          "n": 908
+          "n": 921
         },
         {
           "tipo": "internacao",
-          "n": 502
+          "n": 524
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 13690
+          "n": 13868
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 906
+          "n": 919
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 852
+          "n": 859
         },
         {
           "codigo": "18",
           "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
-          "n": 758
+          "n": 759
         },
         {
           "codigo": "439",
@@ -633,47 +633,47 @@
     {
       "codigo_plano": "9",
       "nome_plano": "EMENDA CONST BASICO PERCENTUAL",
-      "n_linhas": 255290,
-      "n_guia_negada": 7086,
-      "n_item_negado": 8365,
-      "pct_guia_negada": 2.78,
+      "n_linhas": 259012,
+      "n_guia_negada": 7139,
+      "n_item_negado": 8434,
+      "pct_guia_negada": 2.76,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 5258
+          "n": 5291
         },
         {
           "tipo": "outros",
-          "n": 807
+          "n": 814
         },
         {
           "tipo": "consulta",
-          "n": 408
+          "n": 417
         },
         {
           "tipo": "odonto",
-          "n": 337
+          "n": 339
         },
         {
           "tipo": "internacao",
-          "n": 276
+          "n": 278
         }
       ],
       "top_motivos": [
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 4838
+          "n": 4866
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 401
+          "n": 410
         },
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 296
+          "n": 297
         },
         {
           "codigo": "501",
@@ -683,29 +683,29 @@
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 220
+          "n": 228
         }
       ]
     },
     {
       "codigo_plano": "23",
       "nome_plano": "IPASGO SAUDE PLENO MAIS",
-      "n_linhas": 80831,
-      "n_guia_negada": 3141,
-      "n_item_negado": 4108,
-      "pct_guia_negada": 3.89,
+      "n_linhas": 82437,
+      "n_guia_negada": 3212,
+      "n_item_negado": 4221,
+      "pct_guia_negada": 3.9,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 2225
+          "n": 2288
         },
         {
           "tipo": "odonto",
-          "n": 596
+          "n": 601
         },
         {
           "tipo": "consulta",
-          "n": 183
+          "n": 186
         },
         {
           "tipo": "internacao",
@@ -720,7 +720,7 @@
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 1856
+          "n": 1916
         },
         {
           "codigo": "192",
@@ -730,31 +730,31 @@
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 164
+          "n": 166
         },
         {
           "codigo": "81",
           "motivo": "SERVIÇO SOLICITADO NÃO POSSUI COBERTURA",
-          "n": 149
+          "n": 150
         },
         {
           "codigo": "642",
           "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-          "n": 135
+          "n": 138
         }
       ]
     },
     {
       "codigo_plano": "26",
       "nome_plano": "IPASGO SAUDE PM CERRADO",
-      "n_linhas": 26439,
-      "n_guia_negada": 2017,
-      "n_item_negado": 2287,
-      "pct_guia_negada": 7.63,
+      "n_linhas": 27964,
+      "n_guia_negada": 2109,
+      "n_item_negado": 2379,
+      "pct_guia_negada": 7.54,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 1381
+          "n": 1447
         },
         {
           "tipo": "outros",
@@ -762,27 +762,27 @@
         },
         {
           "tipo": "odonto",
-          "n": 220
+          "n": 230
         },
         {
           "tipo": "consulta",
-          "n": 83
+          "n": 91
         },
         {
           "tipo": "internacao",
-          "n": 48
+          "n": 56
         }
       ],
       "top_motivos": [
         {
           "codigo": "11",
           "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
-          "n": 995
+          "n": 1043
         },
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 668
+          "n": 687
         },
         {
           "codigo": "642",
@@ -804,14 +804,14 @@
     {
       "codigo_plano": "27",
       "nome_plano": "IPASGO SAUDE PM FAMILIA",
-      "n_linhas": 8151,
-      "n_guia_negada": 917,
-      "n_item_negado": 983,
-      "pct_guia_negada": 11.25,
+      "n_linhas": 8532,
+      "n_guia_negada": 1022,
+      "n_item_negado": 1091,
+      "pct_guia_negada": 11.98,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 786
+          "n": 891
         },
         {
           "tipo": "consulta",
@@ -834,12 +834,12 @@
         {
           "codigo": "11",
           "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
-          "n": 541
+          "n": 635
         },
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 298
+          "n": 307
         },
         {
           "codigo": "192",
@@ -861,26 +861,26 @@
     {
       "codigo_plano": "28",
       "nome_plano": "CERRADO APTO",
-      "n_linhas": 3487,
-      "n_guia_negada": 87,
-      "n_item_negado": 115,
-      "pct_guia_negada": 2.49,
+      "n_linhas": 3426,
+      "n_guia_negada": 84,
+      "n_item_negado": 108,
+      "pct_guia_negada": 2.45,
       "demandas": [
         {
           "tipo": "sadt",
-          "n": 68
+          "n": 62
         },
         {
           "tipo": "consulta",
-          "n": 13
+          "n": 12
+        },
+        {
+          "tipo": "internacao",
+          "n": 5
         },
         {
           "tipo": "odonto",
           "n": 4
-        },
-        {
-          "tipo": "internacao",
-          "n": 1
         },
         {
           "tipo": "outros",
@@ -891,17 +891,17 @@
         {
           "codigo": "451",
           "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-          "n": 43
+          "n": 38
         },
         {
           "codigo": "11",
           "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
-          "n": 15
+          "n": 18
         },
         {
           "codigo": "651",
           "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-          "n": 12
+          "n": 11
         },
         {
           "codigo": "642",
@@ -911,44 +911,6 @@
         {
           "codigo": "192",
           "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-          "n": 5
-        }
-      ]
-    },
-    {
-      "codigo_plano": "18",
-      "nome_plano": "PLANO SEM COBERTURA",
-      "n_linhas": 97,
-      "n_guia_negada": 56,
-      "n_item_negado": 56,
-      "pct_guia_negada": 57.73,
-      "demandas": [
-        {
-          "tipo": "sadt",
-          "n": 52
-        },
-        {
-          "tipo": "outros",
-          "n": 2
-        },
-        {
-          "tipo": "internacao",
-          "n": 1
-        },
-        {
-          "tipo": "consulta",
-          "n": 1
-        }
-      ],
-      "top_motivos": [
-        {
-          "codigo": "81",
-          "motivo": "SERVIÇO SOLICITADO NÃO POSSUI COBERTURA",
-          "n": 52
-        },
-        {
-          "codigo": "11",
-          "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
           "n": 4
         }
       ]
@@ -956,10 +918,10 @@
     {
       "codigo_plano": "29",
       "nome_plano": "FAMILIA APTO",
-      "n_linhas": 248,
+      "n_linhas": 274,
       "n_guia_negada": 13,
       "n_item_negado": 14,
-      "pct_guia_negada": 5.24,
+      "pct_guia_negada": 4.74,
       "demandas": [
         {
           "tipo": "odonto",
@@ -982,286 +944,359 @@
           "n": 5
         }
       ]
+    },
+    {
+      "codigo_plano": "18",
+      "nome_plano": "PLANO SEM COBERTURA",
+      "n_linhas": 1,
+      "n_guia_negada": 1,
+      "n_item_negado": 1,
+      "pct_guia_negada": 100.0,
+      "demandas": [
+        {
+          "tipo": "sadt",
+          "n": 1
+        }
+      ],
+      "top_motivos": [
+        {
+          "codigo": "81",
+          "motivo": "SERVIÇO SOLICITADO NÃO POSSUI COBERTURA",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "codigo_plano": "34",
+      "nome_plano": "ARAGUAIA ESPECIAL",
+      "n_linhas": 147,
+      "n_guia_negada": 0,
+      "n_item_negado": 0,
+      "pct_guia_negada": 0.0,
+      "demandas": [],
+      "top_motivos": []
+    },
+    {
+      "codigo_plano": "30",
+      "nome_plano": "PM CERRADO APTO",
+      "n_linhas": 39,
+      "n_guia_negada": 0,
+      "n_item_negado": 0,
+      "pct_guia_negada": 0.0,
+      "demandas": [],
+      "top_motivos": []
+    },
+    {
+      "codigo_plano": "32",
+      "nome_plano": "ARAGUAIA",
+      "n_linhas": 3,
+      "n_guia_negada": 0,
+      "n_item_negado": 0,
+      "pct_guia_negada": 0.0,
+      "demandas": [],
+      "top_motivos": []
     }
   ],
   "fila": [
     {
       "codigo_plano": "3",
       "nome_plano": "ESTADO BASICO ATUARIAL",
-      "n_itens": 442113,
-      "idade_p50": 25.68,
-      "n_itens_estouro": 11074,
-      "pct_estouro": 2.5
+      "n_itens": 448423,
+      "idade_p50": 24.18,
+      "n_itens_estouro": 11163,
+      "pct_estouro": 2.49
     },
     {
       "codigo_plano": "1",
       "nome_plano": "ESTADO BASICO PERCENTUAL",
-      "n_itens": 371312,
-      "idade_p50": 24.22,
-      "n_itens_estouro": 7895,
-      "pct_estouro": 2.13
+      "n_itens": 376222,
+      "idade_p50": 22.79,
+      "n_itens_estouro": 7962,
+      "pct_estouro": 2.12
     },
     {
       "codigo_plano": "2",
       "nome_plano": "ESTADO ESPECIAL PERCENTUAL",
-      "n_itens": 356340,
-      "idade_p50": 24.94,
-      "n_itens_estouro": 9690,
-      "pct_estouro": 2.72
+      "n_itens": 361056,
+      "idade_p50": 23.92,
+      "n_itens_estouro": 9763,
+      "pct_estouro": 2.7
     },
     {
       "codigo_plano": "4",
       "nome_plano": "ESTADO ESPECIAL ATUARIAL",
-      "n_itens": 207107,
-      "idade_p50": 24.96,
-      "n_itens_estouro": 5134,
-      "pct_estouro": 2.48
+      "n_itens": 210247,
+      "idade_p50": 25.11,
+      "n_itens_estouro": 5186,
+      "pct_estouro": 2.47
     },
     {
       "codigo_plano": "13",
       "nome_plano": "CONVENIO BASICO PERCENTUAL",
-      "n_itens": 186949,
-      "idade_p50": 25.34,
-      "n_itens_estouro": 4465,
-      "pct_estouro": 2.39
+      "n_itens": 189384,
+      "idade_p50": 25.17,
+      "n_itens_estouro": 4504,
+      "pct_estouro": 2.38
     },
     {
       "codigo_plano": "15",
       "nome_plano": "CONVENIO BASICO ATUARIAL",
-      "n_itens": 96411,
-      "idade_p50": 25.31,
-      "n_itens_estouro": 2531,
-      "pct_estouro": 2.63
+      "n_itens": 97856,
+      "idade_p50": 25.52,
+      "n_itens_estouro": 2544,
+      "pct_estouro": 2.6
     },
     {
       "codigo_plano": "14",
       "nome_plano": "CONVENIO ESPECIAL PERCENTUAL",
-      "n_itens": 64498,
-      "idade_p50": 24.99,
-      "n_itens_estouro": 2043,
-      "pct_estouro": 3.17
+      "n_itens": 65348,
+      "idade_p50": 24.42,
+      "n_itens_estouro": 2063,
+      "pct_estouro": 3.16
     },
     {
       "codigo_plano": "10",
       "nome_plano": "EMENDA CONST ESPECIAL PERCENTUAL",
-      "n_itens": 42510,
-      "idade_p50": 27.01,
-      "n_itens_estouro": 1631,
-      "pct_estouro": 3.84
+      "n_itens": 43040,
+      "idade_p50": 25.58,
+      "n_itens_estouro": 1649,
+      "pct_estouro": 3.83
     },
     {
       "codigo_plano": "16",
       "nome_plano": "CONVENIO ESPECIAL ATUARIAL",
-      "n_itens": 37331,
-      "idade_p50": 26.34,
-      "n_itens_estouro": 926,
-      "pct_estouro": 2.48
+      "n_itens": 37907,
+      "idade_p50": 25.59,
+      "n_itens_estouro": 935,
+      "pct_estouro": 2.47
     },
     {
       "codigo_plano": "21",
       "nome_plano": "IPASGO SAUDE FAMILIA",
-      "n_itens": 34392,
-      "idade_p50": 14.66,
-      "n_itens_estouro": 2449,
-      "pct_estouro": 7.12
+      "n_itens": 35213,
+      "idade_p50": 13.62,
+      "n_itens_estouro": 2498,
+      "pct_estouro": 7.09
     },
     {
       "codigo_plano": "20",
       "nome_plano": "IPASGO SAUDE CERRADO",
-      "n_itens": 25237,
-      "idade_p50": 15.96,
-      "n_itens_estouro": 1323,
-      "pct_estouro": 5.24
+      "n_itens": 25993,
+      "idade_p50": 13.42,
+      "n_itens_estouro": 1389,
+      "pct_estouro": 5.34
     },
     {
       "codigo_plano": "9",
       "nome_plano": "EMENDA CONST BASICO PERCENTUAL",
-      "n_itens": 14559,
-      "idade_p50": 25.61,
-      "n_itens_estouro": 510,
-      "pct_estouro": 3.5
+      "n_itens": 14733,
+      "idade_p50": 25.14,
+      "n_itens_estouro": 513,
+      "pct_estouro": 3.48
     },
     {
       "codigo_plano": "23",
       "nome_plano": "IPASGO SAUDE PLENO MAIS",
-      "n_itens": 5970,
-      "idade_p50": 25.37,
-      "n_itens_estouro": 145,
-      "pct_estouro": 2.43
+      "n_itens": 6056,
+      "idade_p50": 23.75,
+      "n_itens_estouro": 148,
+      "pct_estouro": 2.44
     },
     {
       "codigo_plano": "(sem plano)",
       "nome_plano": "(sem plano)",
-      "n_itens": 2587,
-      "idade_p50": 3.44,
-      "n_itens_estouro": 354,
-      "pct_estouro": 13.68
+      "n_itens": 2465,
+      "idade_p50": 6.5,
+      "n_itens_estouro": 254,
+      "pct_estouro": 10.3
     },
     {
       "codigo_plano": "26",
       "nome_plano": "IPASGO SAUDE PM CERRADO",
-      "n_itens": 1644,
-      "idade_p50": 11.16,
+      "n_itens": 1728,
+      "idade_p50": 10.03,
       "n_itens_estouro": 80,
-      "pct_estouro": 4.87
+      "pct_estouro": 4.63
     },
     {
       "codigo_plano": "27",
       "nome_plano": "IPASGO SAUDE PM FAMILIA",
-      "n_itens": 543,
-      "idade_p50": 4.38,
-      "n_itens_estouro": 84,
-      "pct_estouro": 15.47
+      "n_itens": 573,
+      "idade_p50": 3.89,
+      "n_itens_estouro": 88,
+      "pct_estouro": 15.36
     },
     {
       "codigo_plano": "28",
       "nome_plano": "CERRADO APTO",
-      "n_itens": 211,
-      "idade_p50": 9.61,
+      "n_itens": 201,
+      "idade_p50": 6.3,
       "n_itens_estouro": 3,
-      "pct_estouro": 1.42
+      "pct_estouro": 1.49
     },
     {
       "codigo_plano": "29",
       "nome_plano": "FAMILIA APTO",
-      "n_itens": 20,
+      "n_itens": 21,
       "idade_p50": 3.39,
       "n_itens_estouro": 0,
       "pct_estouro": 0.0
     },
     {
-      "codigo_plano": "18",
-      "nome_plano": "PLANO SEM COBERTURA",
-      "n_itens": 5,
-      "idade_p50": 48.26,
-      "n_itens_estouro": 1,
-      "pct_estouro": 20.0
+      "codigo_plano": "34",
+      "nome_plano": "ARAGUAIA ESPECIAL",
+      "n_itens": 3,
+      "idade_p50": 47.56,
+      "n_itens_estouro": 0,
+      "pct_estouro": 0.0
+    },
+    {
+      "codigo_plano": "30",
+      "nome_plano": "PM CERRADO APTO",
+      "n_itens": 1,
+      "idade_p50": 1.0,
+      "n_itens_estouro": 0,
+      "pct_estouro": 0.0
     }
   ],
   "sla": [
     {
       "codigo_plano": "3",
       "nome_plano": "ESTADO BASICO ATUARIAL",
-      "n_itens": 235191,
-      "n_itens_fora": 4720,
-      "pct_fora": 2.01
+      "n_itens": 239893,
+      "n_itens_fora": 4803,
+      "pct_fora": 2.0
     },
     {
       "codigo_plano": "1",
       "nome_plano": "ESTADO BASICO PERCENTUAL",
-      "n_itens": 198768,
-      "n_itens_fora": 3819,
-      "pct_fora": 1.92
+      "n_itens": 202492,
+      "n_itens_fora": 3901,
+      "pct_fora": 1.93
     },
     {
       "codigo_plano": "2",
       "nome_plano": "ESTADO ESPECIAL PERCENTUAL",
-      "n_itens": 194499,
-      "n_itens_fora": 4351,
+      "n_itens": 198157,
+      "n_itens_fora": 4431,
       "pct_fora": 2.24
     },
     {
       "codigo_plano": "4",
       "nome_plano": "ESTADO ESPECIAL ATUARIAL",
-      "n_itens": 107597,
-      "n_itens_fora": 2097,
-      "pct_fora": 1.95
+      "n_itens": 109844,
+      "n_itens_fora": 2120,
+      "pct_fora": 1.93
     },
     {
       "codigo_plano": "13",
       "nome_plano": "CONVENIO BASICO PERCENTUAL",
-      "n_itens": 103963,
-      "n_itens_fora": 2224,
-      "pct_fora": 2.14
+      "n_itens": 105831,
+      "n_itens_fora": 2249,
+      "pct_fora": 2.13
     },
     {
       "codigo_plano": "15",
       "nome_plano": "CONVENIO BASICO ATUARIAL",
-      "n_itens": 51184,
-      "n_itens_fora": 977,
-      "pct_fora": 1.91
+      "n_itens": 52333,
+      "n_itens_fora": 984,
+      "pct_fora": 1.88
     },
     {
       "codigo_plano": "14",
       "nome_plano": "CONVENIO ESPECIAL PERCENTUAL",
-      "n_itens": 35598,
-      "n_itens_fora": 799,
+      "n_itens": 36215,
+      "n_itens_fora": 812,
       "pct_fora": 2.24
     },
     {
       "codigo_plano": "10",
       "nome_plano": "EMENDA CONST ESPECIAL PERCENTUAL",
-      "n_itens": 22938,
-      "n_itens_fora": 497,
-      "pct_fora": 2.17
+      "n_itens": 23324,
+      "n_itens_fora": 501,
+      "pct_fora": 2.15
     },
     {
       "codigo_plano": "16",
       "nome_plano": "CONVENIO ESPECIAL ATUARIAL",
-      "n_itens": 19533,
-      "n_itens_fora": 373,
-      "pct_fora": 1.91
+      "n_itens": 19911,
+      "n_itens_fora": 375,
+      "pct_fora": 1.88
     },
     {
       "codigo_plano": "21",
       "nome_plano": "IPASGO SAUDE FAMILIA",
-      "n_itens": 12939,
-      "n_itens_fora": 205,
-      "pct_fora": 1.58
+      "n_itens": 13403,
+      "n_itens_fora": 216,
+      "pct_fora": 1.61
     },
     {
       "codigo_plano": "20",
       "nome_plano": "IPASGO SAUDE CERRADO",
-      "n_itens": 8986,
-      "n_itens_fora": 112,
-      "pct_fora": 1.25
+      "n_itens": 9390,
+      "n_itens_fora": 115,
+      "pct_fora": 1.22
     },
     {
       "codigo_plano": "9",
       "nome_plano": "EMENDA CONST BASICO PERCENTUAL",
-      "n_itens": 8089,
-      "n_itens_fora": 195,
-      "pct_fora": 2.41
+      "n_itens": 8225,
+      "n_itens_fora": 201,
+      "pct_fora": 2.44
     },
     {
       "codigo_plano": "(sem plano)",
       "nome_plano": "(sem plano)",
-      "n_itens": 3400,
-      "n_itens_fora": 60,
-      "pct_fora": 1.76
+      "n_itens": 2710,
+      "n_itens_fora": 77,
+      "pct_fora": 2.84
     },
     {
       "codigo_plano": "23",
       "nome_plano": "IPASGO SAUDE PLENO MAIS",
-      "n_itens": 2128,
+      "n_itens": 2175,
       "n_itens_fora": 27,
-      "pct_fora": 1.27
+      "pct_fora": 1.24
     },
     {
       "codigo_plano": "26",
       "nome_plano": "IPASGO SAUDE PM CERRADO",
-      "n_itens": 537,
+      "n_itens": 576,
       "n_itens_fora": 8,
-      "pct_fora": 1.49
+      "pct_fora": 1.39
     },
     {
       "codigo_plano": "27",
       "nome_plano": "IPASGO SAUDE PM FAMILIA",
-      "n_itens": 187,
+      "n_itens": 199,
       "n_itens_fora": 3,
-      "pct_fora": 1.6
+      "pct_fora": 1.51
     },
     {
       "codigo_plano": "28",
       "nome_plano": "CERRADO APTO",
-      "n_itens": 69,
+      "n_itens": 67,
       "n_itens_fora": 2,
-      "pct_fora": 2.9
+      "pct_fora": 2.99
     },
     {
       "codigo_plano": "29",
       "nome_plano": "FAMILIA APTO",
       "n_itens": 9,
+      "n_itens_fora": 0,
+      "pct_fora": 0.0
+    },
+    {
+      "codigo_plano": "34",
+      "nome_plano": "ARAGUAIA ESPECIAL",
+      "n_itens": 2,
+      "n_itens_fora": 0,
+      "pct_fora": 0.0
+    },
+    {
+      "codigo_plano": "30",
+      "nome_plano": "PM CERRADO APTO",
+      "n_itens": 1,
       "n_itens_fora": 0,
       "pct_fora": 0.0
     }
