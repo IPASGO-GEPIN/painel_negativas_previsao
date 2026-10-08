@@ -554,8 +554,8 @@
     {
       "valor": "ABERTA",
       "n": 6,
-      "valor_real": NaN,
-      "total_pago": NaN
+      "valor_real": null,
+      "total_pago": null
     }
   ],
   "cpagar_resumo": [
