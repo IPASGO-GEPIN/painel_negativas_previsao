@@ -1,16 +1,16 @@
 {
   "query": "REG05",
   "fonte": "ipasgo.guias_autorizacao_pq",
-  "extraido_em": "2026-10-08",
+  "extraido_em": "2026-10-16",
   "totais": {
-    "n_linhas": 56036886,
-    "n_guia_negada": 2235320,
-    "n_item_negado": 2571781,
+    "n_linhas": 56628448,
+    "n_guia_negada": 2253453,
+    "n_item_negado": 2592665,
     "pct_guia_negada": 4.0,
     "pct_item_negado": 4.6,
-    "n_com_codigo_motivo": 2571726,
-    "n_com_motivo": 2571726,
-    "n_com_data_negativa": 2571797,
+    "n_com_codigo_motivo": 2592609,
+    "n_com_motivo": 2592609,
+    "n_com_data_negativa": 2592680,
     "n_codigos_motivo_distintos": 366,
     "n_motivos_distintos": 358
   },
@@ -19,37 +19,37 @@
     {
       "codigo_motivo": "451",
       "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-      "n": 1369275
+      "n": 1381130
     },
     {
       "codigo_motivo": "-1",
       "motivo": "SERVIÇO NEGADO",
-      "n": 285792
+      "n": 286402
     },
     {
       "codigo_motivo": "642",
       "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-      "n": 105192
+      "n": 106810
     },
     {
       "codigo_motivo": "192",
       "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-      "n": 83661
+      "n": 84065
     },
     {
       "codigo_motivo": "200",
       "motivo": "PROCEDIMENTO DESFAVORÁVEL APÓS ANÁLISE TÉCNICA.",
-      "n": 56188
+      "n": 56354
     },
     {
       "codigo_motivo": "104",
       "motivo": "PROCEDIMENTO ODONTOLÓGICO NÃO AUTORIZADO",
-      "n": 54238
+      "n": 54792
     },
     {
       "codigo_motivo": "651",
       "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-      "n": 53638
+      "n": 54522
     },
     {
       "codigo_motivo": "100",
@@ -59,7 +59,7 @@
     {
       "codigo_motivo": "11",
       "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
-      "n": 39811
+      "n": 41208
     },
     {
       "codigo_motivo": "76",
@@ -69,7 +69,7 @@
     {
       "codigo_motivo": "18",
       "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
-      "n": 36862
+      "n": 37082
     },
     {
       "codigo_motivo": "543",
@@ -79,22 +79,22 @@
     {
       "codigo_motivo": "52",
       "motivo": "PROCEDIMENTO SOLICITADO EM TIPO DE GUIA INVÁLIDO.",
-      "n": 29994
+      "n": 30072
     },
     {
       "codigo_motivo": "112",
       "motivo": "PROCEDIMENTO SOLICITADO NÃO ATENDE OS CRITÉRIOS DA NOTA TÉCNICA CONFORME REGULAMENTO DO PLANO",
-      "n": 29817
+      "n": 29944
     },
     {
       "codigo_motivo": "439",
       "motivo": "GLOSA TÉCNICA (ESPECIFICAR DETALHADAMENTE)",
-      "n": 27719
+      "n": 28051
     },
     {
       "codigo_motivo": "644",
       "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
-      "n": 21140
+      "n": 21755
     },
     {
       "codigo_motivo": "138",
@@ -104,42 +104,42 @@
     {
       "codigo_motivo": "501",
       "motivo": "SOLICITAÇÃO RETROATIVA SOLICITADA APÓS O DÉCIMO DIA CORRIDO DA ALTA.",
-      "n": 19391
+      "n": 19407
     },
     {
       "codigo_motivo": "521",
       "motivo": "PROCEDIMENTO JÁ AUTORIZADO EM HISTÓRICO",
-      "n": 15669
+      "n": 15885
     },
     {
       "codigo_motivo": "81",
       "motivo": "SERVIÇO SOLICITADO NÃO POSSUI COBERTURA",
-      "n": 12663
+      "n": 12928
     },
     {
       "codigo_motivo": "627",
       "motivo": "EXAME ODONTOLÓGICO NÃO AUTORIZADO",
-      "n": 12229
+      "n": 12408
     },
     {
       "codigo_motivo": "629",
       "motivo": "PROCEDIMENTO REALIZADO DENTRO DO PERÍODO DE RETOR",
-      "n": 11608
+      "n": 11706
     },
     {
       "codigo_motivo": "505",
       "motivo": "CONFORME CONSENSO TÉCNICO",
-      "n": 10828
+      "n": 10886
     },
     {
       "codigo_motivo": "643",
       "motivo": "SERVIÇO SOLICITADO DENTRO DO PRAZO DE RETORNO",
-      "n": 9259
+      "n": 9338
     },
     {
       "codigo_motivo": "106",
       "motivo": "REAVALIAR AS FACES/ REGIÃO SOLICITADA",
-      "n": 8856
+      "n": 8931
     }
   ],
   "negativas_mensal": [
@@ -496,15 +496,15 @@
     },
     {
       "mes": "2026/10",
-      "n_linhas": 611744,
-      "n_guia_negada": 12005,
-      "n_item_negado": 14918,
-      "pct_guia_negada": 1.96,
-      "pct_item_negado": 2.44,
-      "n_neg_consulta": 1251,
-      "n_neg_sadt": 8275,
-      "n_neg_internacao": 294,
-      "n_neg_odonto": 1660,
+      "n_linhas": 1203306,
+      "n_guia_negada": 30138,
+      "n_item_negado": 35802,
+      "pct_guia_negada": 2.5,
+      "pct_item_negado": 2.98,
+      "n_neg_consulta": 2316,
+      "n_neg_sadt": 23000,
+      "n_neg_internacao": 527,
+      "n_neg_odonto": 3435,
       "imaturo": true
     }
   ],
