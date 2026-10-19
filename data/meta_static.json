@@ -43,10 +43,10 @@
     "FLUXO PARA PEDIDOS DE EXAMES CONVERTIDOS"
   ],
   "logins": [],
-  "extraido_em": "2026-10-16",
+  "extraido_em": "2026-10-17",
   "mes_fim": "2026/10",
   "mes_corte_imaturos": "2026/08",
   "modo": "static",
-  "gerado_em": "2026-10-16T14:17:39",
+  "gerado_em": "2026-10-17T13:49:15",
   "painel": "negativas_previsao"
 }

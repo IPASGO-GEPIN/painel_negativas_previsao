@@ -16,7 +16,7 @@
     },
     {
       "name": "dim_login",
-      "n_linhas": 270,
+      "n_linhas": 273,
       "colunas": [
         {
           "name": "login",
@@ -55,7 +55,7 @@
     },
     {
       "name": "fato_auth_fat",
-      "n_linhas": 5537,
+      "n_linhas": 5535,
       "colunas": [
         {
           "name": "mes",
@@ -550,6 +550,6 @@
     }
   ],
   "mermaid": "erDiagram\n  dim_mes ||--o{ fato_fila : filtra\n  dim_mes ||--o{ fato_sla : filtra\n  dim_mes ||--o{ fato_auth_fat : filtra\n  dim_mes ||--o{ fato_financeiro : filtra\n  dim_tipo ||--o{ fato_fila : tipo\n  dim_fluxo ||--o{ fato_fila : fluxo\n  dim_fluxo ||--o{ fato_sla : fluxo\n  dim_fluxo ||--o{ fato_auth_fat : fluxo\n  dim_login ||--o{ fato_auth_fat : login\n  meta_etl ||--o| meta_conversao : watermark\n  dim_fluxo { string id }\n  dim_login { string id }\n  dim_mes { string id }\n  dim_tipo { string id }\n  fato_auth_fat { string id }\n  fato_fila { string id }\n  fato_fila_plano { string id }\n  fato_financeiro { string id }\n  fato_negativa_plano { string id }\n  fato_sla { string id }\n  fato_sla_plano { string id }\n  meta_conversao { string id }\n  meta_etl { string id }",
-  "extraido_em": "2026-10-16",
+  "extraido_em": "2026-10-17",
   "modo": "duckdb"
 }

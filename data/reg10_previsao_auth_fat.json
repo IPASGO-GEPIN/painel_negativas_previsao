@@ -2,7 +2,7 @@
   "query": "REG10",
   "fonte_repo": "previsao_auth_faturamento",
   "modelo_oficial": "hibrido_volSeg_valAgg_WF (volume segmentado + valor agregado; neste painel exibimos o forecast agregado calibrado ja gerado)",
-  "extraido_em": "2026-10-16",
+  "extraido_em": "2026-10-17",
   "referencia_docs": [
     "previsao_auth_faturamento/docs/etapas/01-deduplicacao-e-pareamento.md",
     "previsao_auth_faturamento/docs/etapas/02-triangulo-de-lag.md",
