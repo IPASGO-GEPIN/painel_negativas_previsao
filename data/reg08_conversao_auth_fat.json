@@ -3,52 +3,52 @@
   "fonte_auth": "ipasgo.guias_autorizacao_pq",
   "fonte_fat": "ipasgo.faturamento_v5_pq",
   "chave": "guia_operadora = guiaoperadora",
-  "extraido_em": "2026-10-17",
+  "extraido_em": "2026-10-19",
   "grao": "guia_operadora (ambos lados agregados antes do join)",
   "universo_auth": "situacao_guia = AUTORIZADA",
   "resumo": {
-    "n_guias_auth": 14468484,
-    "com_fat": 12157186,
-    "sem_fat": 2311298,
-    "taxa_conversao_pct": 84.03,
+    "n_guias_auth": 14475684,
+    "com_fat": 12161441,
+    "sem_fat": 2314243,
+    "taxa_conversao_pct": 84.01,
     "taxa_conversao_madura_pct": 91.56,
     "janela_madura": "2025/01–2026/06",
     "nota_global": "taxa_conversao_pct global mistura truncamento 2024 e censura ≥2026/07; use taxa_conversao_madura_pct para leitura gerencial.",
-    "avg_eventos_fat_por_guia": 5.669440691291554,
+    "avg_eventos_fat_por_guia": 5.669220284010752,
     "p50_eventos_fat": 1.0,
     "p90_eventos_fat": 12.0,
-    "avg_dias_auth_ate_real": 2.9969467440902853,
+    "avg_dias_auth_ate_real": 2.99761278289308,
     "p50_dias": 0.0,
     "p90_dias": 13.0,
-    "despesa_liq_casada": 3729889584.8397093
+    "despesa_liq_casada": 3731373487.0499754
   },
   "cobertura_chaves": {
-    "fat_orfaos_sem_qualquer_auth_pct": 17.65
+    "fat_orfaos_sem_qualquer_auth_pct": 17.64
   },
   "conversao_por_tipo": [
     {
       "valor": "SP/SADT",
-      "n_guias_auth": 9977838,
-      "com_fat": 8045122,
-      "taxa_conversao": 80.63
+      "n_guias_auth": 9984237,
+      "com_fat": 8048645,
+      "taxa_conversao": 80.61
     },
     {
       "valor": "CONSULTA",
-      "n_guias_auth": 3430924,
-      "com_fat": 3155924,
-      "taxa_conversao": 91.98
+      "n_guias_auth": 3431399,
+      "com_fat": 3156604,
+      "taxa_conversao": 91.99
     },
     {
       "valor": "ODONTOLÓGICA",
-      "n_guias_auth": 746846,
-      "com_fat": 673120,
-      "taxa_conversao": 90.13
+      "n_guias_auth": 746982,
+      "com_fat": 673171,
+      "taxa_conversao": 90.12
     },
     {
       "valor": "SOLICITAÇÃO DE INTERNAÇÃO",
-      "n_guias_auth": 255703,
-      "com_fat": 230083,
-      "taxa_conversao": 89.98
+      "n_guias_auth": 255897,
+      "com_fat": 230084,
+      "taxa_conversao": 89.91
     },
     {
       "valor": "RESUMO DE INTERNAÇÃO",
@@ -58,9 +58,9 @@
     },
     {
       "valor": "ANEXO DE OPME",
-      "n_guias_auth": 10097,
+      "n_guias_auth": 10093,
       "com_fat": 8271,
-      "taxa_conversao": 81.92
+      "taxa_conversao": 81.95
     },
     {
       "valor": "PRORROGAÇÃO",
@@ -223,44 +223,44 @@
     {
       "mes": "2026/04",
       "n_auth": 561910,
-      "com_fat": 526892,
+      "com_fat": 526893,
       "taxa": 93.77
     },
     {
       "mes": "2026/05",
       "n_auth": 566578,
-      "com_fat": 535186,
+      "com_fat": 535188,
       "taxa": 94.46
     },
     {
       "mes": "2026/06",
       "n_auth": 556745,
-      "com_fat": 527055,
+      "com_fat": 527091,
       "taxa": 94.67
     },
     {
       "mes": "2026/07",
       "n_auth": 584751,
-      "com_fat": 551786,
-      "taxa": 94.36
+      "com_fat": 552142,
+      "taxa": 94.42
     },
     {
       "mes": "2026/08",
       "n_auth": 590344,
-      "com_fat": 444773,
-      "taxa": 75.34
+      "com_fat": 445763,
+      "taxa": 75.51
     },
     {
       "mes": "2026/09",
       "n_auth": 604559,
-      "com_fat": 227529,
-      "taxa": 37.64
+      "com_fat": 230393,
+      "taxa": 38.11
     },
     {
       "mes": "2026/10",
-      "n_auth": 275390,
-      "com_fat": 2047,
-      "taxa": 0.74
+      "n_auth": 282590,
+      "com_fat": 2053,
+      "taxa": 0.73
     }
   ],
   "nota_maturacao": "Queda de taxa em meses recentes reflete defasagem de apresentação/faturamento. Janela madura 2025/01–2026/06 ≈ 91.56%.",

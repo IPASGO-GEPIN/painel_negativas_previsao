@@ -1,16 +1,16 @@
 {
   "query": "REG05",
   "fonte": "ipasgo.guias_autorizacao_pq",
-  "extraido_em": "2026-10-17",
+  "extraido_em": "2026-10-19",
   "totais": {
-    "n_linhas": 56674059,
-    "n_guia_negada": 2254950,
-    "n_item_negado": 2594395,
+    "n_linhas": 56705794,
+    "n_guia_negada": 2257604,
+    "n_item_negado": 2597207,
     "pct_guia_negada": 4.0,
     "pct_item_negado": 4.6,
-    "n_com_codigo_motivo": 2594339,
-    "n_com_motivo": 2594339,
-    "n_com_data_negativa": 2594410,
+    "n_com_codigo_motivo": 2597151,
+    "n_com_motivo": 2597151,
+    "n_com_data_negativa": 2597222,
     "n_codigos_motivo_distintos": 366,
     "n_motivos_distintos": 358
   },
@@ -19,7 +19,7 @@
     {
       "codigo_motivo": "451",
       "motivo": "DOCUMENTAÇÃO INCOMPLETA, INCORRETA OU AUSENTE",
-      "n": 1382188
+      "n": 1384657
     },
     {
       "codigo_motivo": "-1",
@@ -29,17 +29,17 @@
     {
       "codigo_motivo": "642",
       "motivo": "SERVIÇO SOLICITADO EM DUPLICIDADE NO MESMO DIA",
-      "n": 106905
+      "n": 107056
     },
     {
       "codigo_motivo": "192",
       "motivo": "PROCEDIMENTO SOLICITADO EM DUPLICIDADE",
-      "n": 84142
+      "n": 84166
     },
     {
       "codigo_motivo": "200",
       "motivo": "PROCEDIMENTO DESFAVORÁVEL APÓS ANÁLISE TÉCNICA.",
-      "n": 56396
+      "n": 56399
     },
     {
       "codigo_motivo": "104",
@@ -49,7 +49,7 @@
     {
       "codigo_motivo": "651",
       "motivo": "SERVIÇO SOLICITADO COM RESTRIÇÃO DE RETORNO",
-      "n": 54587
+      "n": 54613
     },
     {
       "codigo_motivo": "100",
@@ -59,7 +59,7 @@
     {
       "codigo_motivo": "11",
       "motivo": "ATENDIMENTO DENTRO DA CARÊNCIA DO BENEFICIÁRIO",
-      "n": 41260
+      "n": 41280
     },
     {
       "codigo_motivo": "76",
@@ -69,7 +69,7 @@
     {
       "codigo_motivo": "18",
       "motivo": "BENEFICIÁRIO COM DATA DE EXCLUSÃO",
-      "n": 37099
+      "n": 37146
     },
     {
       "codigo_motivo": "543",
@@ -84,7 +84,7 @@
     {
       "codigo_motivo": "112",
       "motivo": "PROCEDIMENTO SOLICITADO NÃO ATENDE OS CRITÉRIOS DA NOTA TÉCNICA CONFORME REGULAMENTO DO PLANO",
-      "n": 29948
+      "n": 29954
     },
     {
       "codigo_motivo": "439",
@@ -94,7 +94,7 @@
     {
       "codigo_motivo": "644",
       "motivo": "CADASTRO DE BENEFICIÁRIO/EMPRESA SUSPENSO",
-      "n": 21790
+      "n": 21812
     },
     {
       "codigo_motivo": "138",
@@ -109,17 +109,17 @@
     {
       "codigo_motivo": "521",
       "motivo": "PROCEDIMENTO JÁ AUTORIZADO EM HISTÓRICO",
-      "n": 15903
+      "n": 15913
     },
     {
       "codigo_motivo": "81",
       "motivo": "SERVIÇO SOLICITADO NÃO POSSUI COBERTURA",
-      "n": 12948
+      "n": 12952
     },
     {
       "codigo_motivo": "627",
       "motivo": "EXAME ODONTOLÓGICO NÃO AUTORIZADO",
-      "n": 12427
+      "n": 12431
     },
     {
       "codigo_motivo": "629",
@@ -496,15 +496,15 @@
     },
     {
       "mes": "2026/10",
-      "n_linhas": 1248917,
-      "n_guia_negada": 31635,
-      "n_item_negado": 37532,
-      "pct_guia_negada": 2.53,
-      "pct_item_negado": 3.01,
-      "n_neg_consulta": 2382,
-      "n_neg_sadt": 24204,
-      "n_neg_internacao": 531,
-      "n_neg_odonto": 3646,
+      "n_linhas": 1280652,
+      "n_guia_negada": 34289,
+      "n_item_negado": 40344,
+      "pct_guia_negada": 2.68,
+      "pct_item_negado": 3.15,
+      "n_neg_consulta": 2404,
+      "n_neg_sadt": 26799,
+      "n_neg_internacao": 547,
+      "n_neg_odonto": 3662,
       "imaturo": true
     }
   ],
