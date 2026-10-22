@@ -3,31 +3,31 @@
   "fonte_hist": "ipasgo.sla_fila_itens_regulacao_hist_pq",
   "fonte_corrente": "ipasgo.sla_fila_itens_regulacao_pq",
   "chave": "id_item_regulacao = guias.item_regulacao_id",
-  "extraido_em": "2026-10-19",
+  "extraido_em": "2026-10-21",
   "grao": "item_regulacao_id (agregado antes de join)",
   "historico": {
-    "n_itens": 2053440,
-    "casados_guias": 2042855,
-    "orfaos_sla": 10585,
-    "pct_casamento": 99.48,
-    "avg_regs_por_item": 4.910255473741624,
+    "n_itens": 2075893,
+    "casados_guias": 2067596,
+    "orfaos_sla": 8297,
+    "pct_casamento": 99.6,
+    "avg_regs_por_item": 4.906241313979092,
     "p50_regs": 3.0,
     "p90_regs": 10.0,
-    "max_regs": 764,
-    "itens_com_fora_prazo": 81411,
-    "itens_sempre_no_prazo": 1494266,
-    "pct_itens_fora": 3.96,
-    "avg_decorrido_min": 2279.3449678098254,
-    "p50_max_decorrido_min": 833.6390471732824,
-    "p90_max_decorrido_min": 9130.249269787957,
+    "max_regs": 766,
+    "itens_com_fora_prazo": 81999,
+    "itens_sempre_no_prazo": 1516131,
+    "pct_itens_fora": 3.95,
+    "avg_decorrido_min": 2277.620371067221,
+    "p50_max_decorrido_min": 837.1868301306267,
+    "p90_max_decorrido_min": 9126.093510872668,
     "pct_cobertura_itens_regulados": 51.15,
     "nota_cobertura": "SLA hist cobre ~51% dos itens com item_regulacao_id nas guias; direção SLA→guias ≈ 99,6%."
   },
   "no_prazo_linhas_hist": [
     {
       "valor": "SIM",
-      "n": 6774505,
-      "n_itens": 1566271
+      "n": 6866228,
+      "n_itens": 1588723
     },
     {
       "valor": "(vazio)",
@@ -36,42 +36,42 @@
     },
     {
       "valor": "NÃO",
-      "n": 1440114,
-      "n_itens": 81411
+      "n": 1450308,
+      "n_itens": 81999
     }
   ],
   "tipos_sla": [
     {
       "valor": "INTERNAÇÕES E PAC",
-      "n": 7189028
+      "n": 7241245
     },
     {
       "valor": "SERV AMBULAT., CONS/SESSÕES PARAMÉDICAS E HOSP-DIA",
-      "n": 1336735
+      "n": 1373702
     },
     {
       "valor": "TERAPIAS ONCOLÓGICAS VIA ORAL",
-      "n": 492845
+      "n": 494537
     },
     {
       "valor": "ODONTOLOGIA",
-      "n": 347743
+      "n": 349605
     },
     {
       "valor": "CONSULTAS MÉDICAS",
-      "n": 257770
+      "n": 259310
     },
     {
       "valor": "DIAGNÓSTICO POR LABORATÓRIO DE ANÁLISES CLÍNICAS",
-      "n": 211421
+      "n": 218842
     },
     {
       "valor": "SLA - PAS",
-      "n": 113686
+      "n": 113883
     },
     {
       "valor": "URGÊNCIA / EMERGÊNCIA",
-      "n": 85167
+      "n": 85188
     },
     {
       "valor": "QUIMIOTERAPIA E MEDICAÇÕES",
@@ -85,39 +85,39 @@
   "fora_prazo_por_fluxo": [
     {
       "valor": "FLUXO DE LIBERAÇÃO SEM OPME",
-      "n": 4831532,
-      "no_prazo": 4725702,
-      "fora_prazo": 105830
+      "n": 4913664,
+      "no_prazo": 4807222,
+      "fora_prazo": 106442
     },
     {
       "valor": "PROGRAMA PAS",
-      "n": 1483519,
-      "no_prazo": 264577,
-      "fora_prazo": 1218942
+      "n": 1493325,
+      "no_prazo": 265491,
+      "fora_prazo": 1227834
     },
     {
       "valor": "FLUXO DE LIBERAÇÃO COM OPME",
-      "n": 690259,
-      "no_prazo": 680617,
-      "fora_prazo": 9642
+      "n": 693578,
+      "no_prazo": 683641,
+      "fora_prazo": 9937
     },
     {
       "valor": "FLUXO DE PRORROGAÇÃO",
-      "n": 444486,
-      "no_prazo": 383401,
-      "fora_prazo": 61085
+      "n": 445954,
+      "no_prazo": 384727,
+      "fora_prazo": 61227
     },
     {
       "valor": "FLUXO DE ODONTOLOGIA",
-      "n": 441919,
-      "no_prazo": 441373,
-      "fora_prazo": 546
+      "n": 445313,
+      "no_prazo": 444765,
+      "fora_prazo": 548
     },
     {
       "valor": "FLUXO DE LIBERAÇÃO DE MEDICAMENTO E QUIMIOTERAPIA",
-      "n": 241362,
-      "no_prazo": 236767,
-      "fora_prazo": 4595
+      "n": 243054,
+      "no_prazo": 238214,
+      "fora_prazo": 4840
     },
     {
       "valor": "ANÁLISE PÓS-ATENDIMENTO DAS GUIAS DE URGÊNCIA",
@@ -127,9 +127,9 @@
     },
     {
       "valor": "ATENDIMENTO DOMICILIAR IMPACTO",
-      "n": 38389,
-      "no_prazo": 38307,
-      "fora_prazo": 82
+      "n": 38495,
+      "no_prazo": 38407,
+      "fora_prazo": 88
     },
     {
       "valor": "FLUXO PARA PEDIDOS DE EXAMES CONVERTIDOS",
@@ -139,14 +139,14 @@
     }
   ],
   "snapshot_corrente": {
-    "n_linhas": 37925,
-    "n_itens": 35516,
-    "n_no_prazo": 33131,
-    "n_fora": 4794,
-    "pct_fora_linhas": 12.64,
-    "n_itens_fora": 4791,
-    "pct_itens_fora": 13.49,
-    "pct_fora": 13.49,
+    "n_linhas": 48654,
+    "n_itens": 46839,
+    "n_no_prazo": 43688,
+    "n_fora": 4966,
+    "pct_fora_linhas": 10.21,
+    "n_itens_fora": 4943,
+    "pct_itens_fora": 10.55,
+    "pct_fora": 10.55,
     "nota": "Snapshot operacional. pct_fora = % itens com flag fora (não linhas de extração diária). Não somar com histórico."
   },
   "sla_mensal": [
@@ -313,7 +313,7 @@
       "pct_itens_fora": 12.78,
       "pct_fora": 12.78,
       "avg_decorrido_min": 15710.65,
-      "p50_decorrido_min": 4002.62,
+      "p50_decorrido_min": 3977.47,
       "n_fluxo_sem_opme": 337354,
       "n_fluxo_odonto": 11534,
       "n_fluxo_pas": 52379,
@@ -332,7 +332,7 @@
       "pct_itens_fora": 6.94,
       "pct_fora": 6.94,
       "avg_decorrido_min": 4854.62,
-      "p50_decorrido_min": 4172.39,
+      "p50_decorrido_min": 4117.74,
       "n_fluxo_sem_opme": 549962,
       "n_fluxo_odonto": 9402,
       "n_fluxo_pas": 19118,
@@ -351,7 +351,7 @@
       "pct_itens_fora": 24.52,
       "pct_fora": 24.52,
       "avg_decorrido_min": 6889.86,
-      "p50_decorrido_min": 5258.61,
+      "p50_decorrido_min": 5367.14,
       "n_fluxo_sem_opme": 387977,
       "n_fluxo_odonto": 11142,
       "n_fluxo_pas": 24703,
@@ -370,7 +370,7 @@
       "pct_itens_fora": 3.03,
       "pct_fora": 3.03,
       "avg_decorrido_min": 3696.52,
-      "p50_decorrido_min": 555.1,
+      "p50_decorrido_min": 546.96,
       "n_fluxo_sem_opme": 250717,
       "n_fluxo_odonto": 11816,
       "n_fluxo_pas": 26278,
@@ -389,7 +389,7 @@
       "pct_itens_fora": 1.19,
       "pct_fora": 1.19,
       "avg_decorrido_min": 3321.93,
-      "p50_decorrido_min": 600.83,
+      "p50_decorrido_min": 636.33,
       "n_fluxo_sem_opme": 446903,
       "n_fluxo_odonto": 12620,
       "n_fluxo_pas": 37768,
@@ -408,7 +408,7 @@
       "pct_itens_fora": 14.0,
       "pct_fora": 14.0,
       "avg_decorrido_min": 4931.8,
-      "p50_decorrido_min": 820.49,
+      "p50_decorrido_min": 819.04,
       "n_fluxo_sem_opme": 537993,
       "n_fluxo_odonto": 23125,
       "n_fluxo_pas": 52359,
@@ -427,7 +427,7 @@
       "pct_itens_fora": 10.97,
       "pct_fora": 10.97,
       "avg_decorrido_min": 11916.82,
-      "p50_decorrido_min": 3354.46,
+      "p50_decorrido_min": 3500.6,
       "n_fluxo_sem_opme": 323423,
       "n_fluxo_odonto": 19864,
       "n_fluxo_pas": 48887,
@@ -446,7 +446,7 @@
       "pct_itens_fora": 2.57,
       "pct_fora": 2.57,
       "avg_decorrido_min": 21865.27,
-      "p50_decorrido_min": 1978.87,
+      "p50_decorrido_min": 1986.6,
       "n_fluxo_sem_opme": 146747,
       "n_fluxo_odonto": 27665,
       "n_fluxo_pas": 50145,
@@ -465,7 +465,7 @@
       "pct_itens_fora": 4.03,
       "pct_fora": 4.03,
       "avg_decorrido_min": 32685.72,
-      "p50_decorrido_min": 2818.42,
+      "p50_decorrido_min": 2932.46,
       "n_fluxo_sem_opme": 103463,
       "n_fluxo_odonto": 37139,
       "n_fluxo_pas": 60220,
@@ -484,7 +484,7 @@
       "pct_itens_fora": 3.38,
       "pct_fora": 3.38,
       "avg_decorrido_min": 41845.67,
-      "p50_decorrido_min": 2121.99,
+      "p50_decorrido_min": 2142.41,
       "n_fluxo_sem_opme": 114714,
       "n_fluxo_odonto": 28483,
       "n_fluxo_pas": 65002,
@@ -503,7 +503,7 @@
       "pct_itens_fora": 2.27,
       "pct_fora": 2.27,
       "avg_decorrido_min": 34487.78,
-      "p50_decorrido_min": 1318.75,
+      "p50_decorrido_min": 1352.31,
       "n_fluxo_sem_opme": 210036,
       "n_fluxo_odonto": 36194,
       "n_fluxo_pas": 76777,
@@ -522,7 +522,7 @@
       "pct_itens_fora": 2.64,
       "pct_fora": 2.64,
       "avg_decorrido_min": 41768.77,
-      "p50_decorrido_min": 1685.2,
+      "p50_decorrido_min": 1822.06,
       "n_fluxo_sem_opme": 185704,
       "n_fluxo_odonto": 23489,
       "n_fluxo_pas": 80303,
@@ -541,7 +541,7 @@
       "pct_itens_fora": 2.95,
       "pct_fora": 2.95,
       "avg_decorrido_min": 55848.12,
-      "p50_decorrido_min": 2645.47,
+      "p50_decorrido_min": 2695.72,
       "n_fluxo_sem_opme": 162642,
       "n_fluxo_odonto": 30965,
       "n_fluxo_pas": 96349,
@@ -560,7 +560,7 @@
       "pct_itens_fora": 4.66,
       "pct_fora": 4.66,
       "avg_decorrido_min": 68477.75,
-      "p50_decorrido_min": 5537.39,
+      "p50_decorrido_min": 5600.29,
       "n_fluxo_sem_opme": 123480,
       "n_fluxo_odonto": 15875,
       "n_fluxo_pas": 90873,
@@ -579,7 +579,7 @@
       "pct_itens_fora": 3.59,
       "pct_fora": 3.59,
       "avg_decorrido_min": 56678.53,
-      "p50_decorrido_min": 2914.52,
+      "p50_decorrido_min": 2917.87,
       "n_fluxo_sem_opme": 194363,
       "n_fluxo_odonto": 18050,
       "n_fluxo_pas": 112145,
@@ -598,7 +598,7 @@
       "pct_itens_fora": 5.86,
       "pct_fora": 5.86,
       "avg_decorrido_min": 81140.0,
-      "p50_decorrido_min": 7397.39,
+      "p50_decorrido_min": 7123.17,
       "n_fluxo_sem_opme": 105443,
       "n_fluxo_odonto": 22512,
       "n_fluxo_pas": 117538,
@@ -617,7 +617,7 @@
       "pct_itens_fora": 6.63,
       "pct_fora": 6.63,
       "avg_decorrido_min": 95361.02,
-      "p50_decorrido_min": 10207.47,
+      "p50_decorrido_min": 11331.56,
       "n_fluxo_sem_opme": 114702,
       "n_fluxo_odonto": 12745,
       "n_fluxo_pas": 123596,
@@ -636,7 +636,7 @@
       "pct_itens_fora": 6.55,
       "pct_fora": 6.55,
       "avg_decorrido_min": 102482.75,
-      "p50_decorrido_min": 11242.59,
+      "p50_decorrido_min": 9402.04,
       "n_fluxo_sem_opme": 133998,
       "n_fluxo_odonto": 28828,
       "n_fluxo_pas": 129467,
@@ -655,7 +655,7 @@
       "pct_itens_fora": 6.57,
       "pct_fora": 6.57,
       "avg_decorrido_min": 101012.47,
-      "p50_decorrido_min": 6481.94,
+      "p50_decorrido_min": 6482.92,
       "n_fluxo_sem_opme": 156212,
       "n_fluxo_odonto": 33770,
       "n_fluxo_pas": 131670,
@@ -665,20 +665,20 @@
     },
     {
       "mes": "2026/10",
-      "n_linhas": 408986,
-      "n_itens": 84526,
-      "n_no_prazo": 321484,
-      "n_fora": 87502,
-      "pct_fora_linhas": 21.39,
-      "n_itens_com_fora": 6341,
-      "pct_itens_fora": 7.5,
-      "pct_fora": 7.5,
-      "avg_decorrido_min": 61631.39,
-      "p50_decorrido_min": 2597.84,
-      "n_fluxo_sem_opme": 245699,
-      "n_fluxo_odonto": 26701,
-      "n_fluxo_pas": 87942,
-      "n_fluxo_com_opme": 26148,
+      "n_linhas": 510903,
+      "n_itens": 106979,
+      "n_no_prazo": 413207,
+      "n_fora": 97696,
+      "pct_fora_linhas": 19.12,
+      "n_itens_com_fora": 6929,
+      "pct_itens_fora": 6.48,
+      "pct_fora": 6.48,
+      "avg_decorrido_min": 54007.18,
+      "p50_decorrido_min": 2683.64,
+      "n_fluxo_sem_opme": 327831,
+      "n_fluxo_odonto": 30095,
+      "n_fluxo_pas": 97748,
+      "n_fluxo_com_opme": 29467,
       "imaturo": true,
       "sem_flag_prazo": false
     }
